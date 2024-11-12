@@ -1,8 +1,16 @@
-11511
+11522
+89C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\htmlnano\docs133752787122609137 1
+92C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\type-fest\source133752787119586917 1
+94C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\htmlnano\README.md133752787121491436 0
+99C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\posthtml-url-parameters133755509825080265 1
+73C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\.gitignore133758968302016417 0
+113C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\helpers\bytesAsFloat64.js133752797743550592 0
 117C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\path-browserify\test\test-path-extname.js133752813518750749 0
 100C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\abortcontroller-polyfill133752787117256890 1
 103C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@parcel\transformer-svg\lib133752787116146889 1
 113C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\rimraf\dist\commonjs\rimraf-manual.js133752797741156014 0
+112C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2019\IsDetachedBuffer.js133752797747736119 0
+110C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\rimraf\dist\esm\default-tmp.js.map133752797741576084 0
 117C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2022\SortIndexedProperties.js133752797751860347 0
 112C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2021\IsIntegralNumber.js133752797747956151 0
 93C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@msgpackr-extract133758884221452455 1
@@ -29,11 +37,11 @@
 111C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\path-scurry\dist\esm\index.d.ts.map133752797740425918 0
 96C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\type-fest\index.d.ts133752787117596895 0
 118C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\utility-types\dist\aliases-and-guards.d.ts133752787117526899 0
-67C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist133758953407281810 1
+67C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist133758996000337481 1
 133C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc133752787116046895 1
+89C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\index.59a40e7a.js.map133758995546590706 0
 105C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@parcel\namer-default\LICENSE133752787113844688 0
 155C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Parentheses.js133752787122539142 0
-89C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\index.59a40e7a.js.map133758953407281810 0
 81C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\which133752797739345731 1
 100C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\resolve\test\symlinks.js133752797742590446 0
 109C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@swc\helpers\_\index\package.json133752787123525057 0
@@ -46,13 +54,11 @@
 103C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2019\ToUint8.js133752797755854799 0
 137C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc133752787114024701 0
 82C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@types133758860822283264 1
-85C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\index.59a40e7a.js133758953407271788 0
 178C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\event-dispatcher\tests\scripts\Bender\EventDispatcher\EventDispatcherRepository\EventAggregatorTest.js133755508348631203 0
 127C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\foreground-child\node_modules\shebang-regex\license133752797738885653 0
 132C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\msgpackr-extract\node_modules\detect-libc\lib\process.js133752787115231856 0
-78C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\index.html133758953407062770 0
+78C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\index.html133758996000327485 0
 99C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\typed-array-length\test133752797739155690 1
-90C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\logo_home.a6a0f6f3.png133758953407042762 0
 108C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\resolve\test\module_dir\xmodules133752797741546079 1
 96C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@parcel\core\LICENSE133752787117676902 0
 97C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\is-callable\.eslintrc133752797738126827 0
@@ -60,7 +66,6 @@
 143C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer\structure.js133752787122918882 0
 126C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\caniuse-lite\data\features\wasm-mutable-globals.js133752787129487835 0
 84C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\argparse133752787116426886 1
-86C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\index.77a9bc14.css133758953407162768 0
 112C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\lru-cache\dist\commonjs\index.min.js133752797739765795 0
 96C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\process\package.json133752813508081861 0
 111C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2021\thisStringValue.js133752797753157798 0
@@ -71,7 +76,6 @@
 111C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\caniuse-lite\data\regions\alt-sa.js133752787118206904 0
 120C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\wrap-ansi\node_modules\ansi-styles\readme.md133752797738895654 0
 114C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\cosmiconfig\dist\cacheWrapper.d.ts.map133752787117516893 0
-90C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\index.77a9bc14.css.map133758953407172768 0
 116C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\css-select\lib\pseudo-selectors\index.js133752787117626897 0
 86C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\concat-map133752797739645773 1
 99C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2023\min.js133752797749366394 0
@@ -99,7 +103,7 @@
 75C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules133758884221442455 1
 110C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\source-map-js\lib\source-node.d.ts133752787117766899 0
 91C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\chalk\readme.md133752787115896886 0
-75C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\package.json133758886096171356 0
+75C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\package.json133758989232560471 0
 98C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\ordered-binary\LICENSE133752787113674688 0
 114C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\npm-run-all\node_modules\color-convert133752797739785806 1
 109C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\rimraf\dist\esm\rimraf-windows.js133752797741436074 0
@@ -113,7 +117,7 @@
 122C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@parcel\transformer-js\lib\esmodule-helpers.js133752787114154700 0
 92C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\posthtml\license133752787113724689 0
 157C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\filesystem\tests\scripts\JsLoader\FileSystem\ScanningStrategy\Pattern\FileTest.js133755508344381204 0
-66C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\src133758949089340701 1
+66C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\src133758993356262134 1
 105C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\posthtml-doctype\package.json133753785819832169 0
 114C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\ordered-binary\.nyc_output\processinfo133752787116576894 1
 85C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\is-bigint133752797740265869 1
@@ -154,9 +158,7 @@
 131C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\css-select\node_modules\entities\lib\esm\index.d.ts.map133752787120357584 0
 118C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2020\RequireObjectCoercible.js133752797751006666 0
 104C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\nth-check\lib\esm\index.d.ts133752787118266906 0
-79C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\src\content.html133758949225612893 0
-127C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\csso\node_modules\css-tree\lib\syntax\config\mix.js133752787124371189 0
-88C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\caniuse-lite133752787129898991 1
+79C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\src\content.html133758979741820985 0
 113C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\source-map\dist\source-map.min.js.map133752787118876914 0
 106C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\svgo\plugins\preset-default.js133752787121038814 0
 102C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\string.prototype.trimstart133752797740855967 1
@@ -177,7 +179,7 @@
 121C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@parcel\bundler-default\lib\DefaultBundler.js133752787114484705 0
 97C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\js-yaml\lib\schema.js133752787118556897 0
 144C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\css-select\node_modules\dom-serializer\lib\esm\foreignNames.d.ts.map133752787116446898 0
-73C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\src\images133755421169670144 1
+73C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\src\images133758995545720658 1
 104C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2015\ToNumber.js133752797754391755 0
 97C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\js-yaml\lib\loader.js133752787118036901 0
 89C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\source-map-js133752787117666893 1
@@ -205,7 +207,7 @@
 126C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\data-container\libraries\modules\data-container.js133755508343808095 0
 96C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\json5\lib\index.d.ts133752787117726893 0
 98C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\unbox-primitive\.nycrc133752797738435575 0
-77C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\src\index.html133758953317383193 0
+77C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\src\index.html133758993197553151 0
 145C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\css-select\node_modules\entities\lib\esm\generated\encode-html.js.map133752787119566920 0
 95C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\pidtree\lib\wmic.js133752797740085863 0
 109C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2023\IsPropertyKey.js133752797748176189 0
@@ -217,7 +219,7 @@
 93C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\src\components\categorias.html133758875581258021 0
 104C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@parcel\transformer-svg\test133752787115946881 1
 99C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2016\tables133752797756313052 1
-69C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\src\js133758855348731182 1
+69C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\src\js133758981605396173 1
 101C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\semver\functions\parse.js133752787118956914 0
 134C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2024\CreateNonEnumerableDataPropertyOrThrow.js133752797744670782 0
 92C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\error-ex\LICENSE133752787114354700 0
@@ -240,7 +242,7 @@
 99C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2017\max.js133752797749286382 0
 86C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\parse-json133752787114584701 1
 126C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\event-dispatcher\samples\requirejs\tests\shim\b.js133755508347341203 0
-76C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\src\main.html133758869198493300 0
+76C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\src\main.html133758996000147480 0
 113C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\source-map\lib\source-map-consumer.js133752787116876892 0
 95C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\is-weakref\index.js133752797739165693 0
 119C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\css-tree\lib\syntax\node\DeclarationList.js133752787123935140 0
@@ -255,7 +257,7 @@
 135C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\css-select\node_modules\dom-serializer\lib\esm\package.json133752787116046895 0
 101C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\htmlnano\lib\htmlnano.mjs133752787121897753 0
 148C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\event-dispatcher\samples\requirejs\tests\browsertests\scriptload\nine.js133755508347751199 0
-76C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\src\js\app.js133758953151595283 0
+76C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\src\js\app.js133758992274673830 0
 104C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\svgo\plugins\inlineStyles.js133752787120759970 0
 96C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\tslib\tslib.es6.html133752787113714688 0
 88C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\src\images\algar_card.jpg133755421170140137 0
@@ -357,9 +359,6 @@
 119C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\wrap-ansi\node_modules\ansi-styles\index.js133752797738185539 0
 112C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@parcel\workers\src\web\WebWorker.js133752787120033348 0
 80C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@swc133758884221442455 1
-109C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\svgo\plugins\removeHiddenElems.js133752787121691488 0
-119C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\typed-array-byte-length\.github\FUNDING.yml133752797740515923 0
-107C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\object-inspect\test\circular.js133752797739815810 0
 116C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\node-gyp-build-optional-packages\LICENSE133752787113674688 0
 114C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\css-tree\cjs\syntax\scope\selector.cjs133752787122698886 0
 85C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\call-bind133752797740525924 1
@@ -433,6 +432,8 @@
 113C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\string.prototype.trimend\CHANGELOG.md133752797740795962 0
 104C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\glob\dist\commonjs\glob.d.ts133752797742290418 0
 82C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\buffer133752813540741813 1
+127C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\csso\node_modules\css-tree\lib\syntax\config\mix.js133752787124371189 0
+88C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\caniuse-lite133752787129898991 1
 81C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\chalk133752787116046895 1
 108C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\glob\dist\commonjs\glob.d.ts.map133752797741176024 0
 152C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\build-test.js133752787114424706 0
@@ -1203,10 +1204,6 @@
 91C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\posthtml-render133752787115506874 1
 107C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2019\ToPrimitive.js133752797754556578 0
 92C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\path-scurry\dist133752797738625603 1
-89C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\htmlnano\docs133752787122609137 1
-92C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\type-fest\source133752787119586917 1
-94C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\htmlnano\README.md133752787121491436 0
-99C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\posthtml-url-parameters133755509825080265 1
 95C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\react-error-overlay133752787116446898 1
 107C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2022\MinFromTime.js133752797749406393 0
 113C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\foreground-child\dist\esm\watchdog.js133752797740335888 0
@@ -1710,15 +1707,15 @@
 105C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2022\StringPad.js133752797752365401 0
 103C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\type-fest\source\basic.d.ts133752787116136882 0
 111C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\which-boxed-primitive\.eslintignore133752797738096800 0
-102C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\internal-slot\CHANGELOG.md133752797740035840 0
-101C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@parcel\utils\src\glob.js133752787118536908 0
-105C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\weak-lru-cache\dist\index.cjs133752787113904694 0
-96C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\semver\ranges\ltr.js133752787118256905 0
-89C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\svgo\bin\svgo133752787114444703 0
 108C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\rimraf\dist\esm\ignore-enoent.js133752797740345887 0
 94C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-errors\index.js133752797738835636 0
 96C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\shell-quote\parse.js133752797740615923 0
 106C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\which-boxed-primitive\index.js133752797739405731 0
+89C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\svgo\bin\svgo133752787114444703 0
+96C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\semver\ranges\ltr.js133752787118256905 0
+102C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\internal-slot\CHANGELOG.md133752797740035840 0
+101C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@parcel\utils\src\glob.js133752787118536908 0
+105C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\weak-lru-cache\dist\index.cjs133752787113904694 0
 98C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\pidtree\lib\pidtree.js133752797739635781 0
 113C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@swc\helpers\_\_identity\package.json133752787121827752 0
 127C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\event-dispatcher\samples\requirejs\tests\error\c.js133755508345201204 0
@@ -1946,8 +1943,8 @@
 114C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\undici-types\env-http-proxy-agent.d.ts133758860823600180 0
 131C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\css-select\node_modules\dom-serializer\lib\esm\index.js133752787115466888 0
 130C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\event-dispatcher\samples\requirejs\tests\paths\util.js133755508346751211 0
-99C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\undici-types\fetch.d.ts133758860823630766 0
 109C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\minipass\dist\commonjs\index.d.ts133752797740975990 0
+99C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\undici-types\fetch.d.ts133758860823630766 0
 99C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\fclone\bench\looparr.js133752806508183358 0
 148C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages-test133752787130078991 0
 121C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2021\CreateDataPropertyOrThrow.js133752797744370735 0
@@ -2081,6 +2078,9 @@
 129C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\event-dispatcher\samples\requirejs\tests\requireAsync133755508347311214 1
 107C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\typed-array-byte-length\.github133752797740495921 1
 98C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\csso\lib\clean\Rule.js133752787122025810 0
+109C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\svgo\plugins\removeHiddenElems.js133752787121691488 0
+119C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\typed-array-byte-length\.github\FUNDING.yml133752797740515923 0
+107C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\object-inspect\test\circular.js133752797739815810 0
 113C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\has-tostringtag\test\shams\core-js.js133752797738975666 0
 95C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\minimatch\README.md133752797739035673 0
 140C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\posthtml\node_modules\posthtml-parser\dist\location-tracker.d.ts133752787116256882 0
@@ -2535,6 +2535,7 @@
 111C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2015\GetSubstitution.js133752797746415907 0
 88C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\csso\LICENSE133752787113654690 0
 139C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\event-dispatcher\samples\requirejs\tests\mapConfig\another\c.js133755508346271205 0
+99C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\presenteacion_card.0c517deb.jpg133758995546600707 0
 99C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\supports-color\index.js133752787114374699 0
 95C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\msgpackr\index.d.ts133752787120819972 0
 113C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2024\BigInt\bitwiseXOR.js133752797743470588 0
@@ -2697,6 +2698,7 @@
 102C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\is-boolean-object\index.js133752797739405731 0
 107C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\caniuse-lite\data\regions\CX.js133752787125057714 0
 120C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\string.prototype.trim\test\implementation.js133752797739745792 0
+90C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\src\images\enlaces_card.jpg133758995393234557 0
 94C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\node-releases\data133752787115426886 1
 109C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\string.prototype.padend\.eslintrc133752797738175474 0
 110C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@parcel\events\src\ValueEmitter.js133752787116966894 0
@@ -3111,8 +3113,6 @@
 108C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\cosmiconfig\dist\Explorer.js.map133752787118176901 0
 117C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@parcel\optimizer-swc\lib\SwcOptimizer.js133752787114174692 0
 101C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\semver\functions\patch.js133752787119036910 0
-137C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\event-dispatcher\samples\requirejs\dist\fonts\Inconsolata.ttf133755508344078087 0
-127C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\event-dispatcher\samples\requirejs\docs\errors.html133755508343838089 0
 106C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\semver\functions\prerelease.js133752787119146912 0
 104C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\semver\functions\rcompare.js133752787119286908 0
 99C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\parse-json\package.json133752787114364693 0
@@ -3215,7 +3215,6 @@
 100C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2021\GetV.js133752797746525938 0
 108C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\rimraf\dist\esm\default-tmp.d.ts133752797742760471 0
 112C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\rimraf\dist\esm\default-tmp.d.ts.map133752797741556081 0
-110C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\rimraf\dist\esm\default-tmp.js.map133752797741576084 0
 106C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\rimraf\dist\esm\fix-eperm.d.ts133752797742770477 0
 109C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\object-inspect\test\quoteStyle.js133752797741186028 0
 129C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\path-browserify\test\test-path-zero-length-strings.js133752813519650054 0
@@ -4038,6 +4037,7 @@
 161C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\event-dispatcher\samples\requirejs\tests\requirePluginLoad\requirePluginLoad-tests.js133755508347331208 0
 105C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\path-browserify\test\index.js133752813518418231 0
 94C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\globals\index.d.ts133752787115946881 0
+90C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\coop_home.626777e5.jpg133758995546390690 0
 104C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\css-tree\cjs\utils\names.cjs133752787122035804 0
 134C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\event-dispatcher\samples\requirejs\tests\version1\omega.js133755508348551209 0
 117C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\csso\cjs\replace\property\font-weight.cjs133752787118136899 0
@@ -5213,10 +5213,10 @@
 114C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@swc\helpers\cjs\_set_prototype_of.cjs133752787124441130 0
 102C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\is-data-view\tsconfig.json133752797740015842 0
 97C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\glob\dist\esm\bin.mjs133752797742240386 0
-97C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\es2016.js133752797745466378 0
-110C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\caniuse-lite\data\features\apng.js133752787118726906 0
 108C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\is-data-view\.github\FUNDING.yml133752797740615923 0
 118C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2023\CreateIterResultObject.js133752797744510755 0
+110C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\caniuse-lite\data\features\apng.js133752787118726906 0
+97C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\es2016.js133752797745466378 0
 100C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\is-core-module\.eslintrc133752797737876781 0
 103C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2022\ToUint8.js133752797755874806 0
 134C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\event-dispatcher\samples\requirejs\tests\moduleConfig\a.js133755508346331216 0
@@ -5885,6 +5885,7 @@
 104C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@parcel\events\src\errors.js133752787115946881 0
 138C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\tokenizer133752787123151059 1
 115C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\foreground-child\node_modules\which\bin133752797738195534 1
+93C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\llavaor_home.ce688a92.jpg133758995546270676 0
 124C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\foreground-child\node_modules\which\CHANGELOG.md133752797739325720 0
 105C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\csso\lib\replace\Dimension.js133752787121463304 0
 126C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\foreground-child\node_modules\which\bin\node-which133752797738255549 0
@@ -6672,6 +6673,8 @@
 124C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\event-dispatcher\samples\requirejs\docs\api.html133755508343768082 0
 107C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2021\GetIterator.js133752797745986609 0
 129C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\event-dispatcher\samples\requirejs\docs\download.html133755508343818082 0
+137C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\event-dispatcher\samples\requirejs\dist\fonts\Inconsolata.ttf133755508344078087 0
+127C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\event-dispatcher\samples\requirejs\docs\errors.html133755508343838089 0
 133C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\event-dispatcher\samples\requirejs\docs\faq-advanced.html133755508343858088 0
 115C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\helpers\padTimeComponent.js133752797750476565 0
 116C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2022\StringGetOwnProperty.js133752797752120398 0
@@ -6864,7 +6867,6 @@
 111C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\helpers\assertRecord.js133752797742910495 0
 112C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\5\IsGenericDescriptor.js133752797747926146 0
 113C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\helpers\bytesAsFloat32.js133752797743540592 0
-113C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\helpers\bytesAsFloat64.js133752797743550592 0
 113C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\helpers\bytesAsInteger.js133752797743560595 0
 117C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2016\DeletePropertyOrThrow.js133752797745170872 0
 107C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\caniuse-lite\data\regions\CD.js133752787122311956 0
@@ -8081,6 +8083,7 @@
 95C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@swc\helpers\_\_jsx133752787122509134 1
 112C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2020\Number\bitwiseOR.js133752797743370572 0
 111C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2020\Number\lessThan.js133752797749016324 0
+93C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\enlaces_card.70be8c51.jpg133758995699965060 0
 105C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@lezer\lr\dist\constants.d.ts133752787116646892 0
 112C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2020\Number\remainder.js133752797750906688 0
 116C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2020\Number\sameValueZero.js133752797751206700 0
@@ -8160,7 +8163,6 @@
 126C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\csso\node_modules\css-tree\cjs\tokenizer\names.cjs133752787121753812 0
 109C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\css-select\lib\esm\general.js.map133752787119993338 0
 109C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2019\IsConstructor.js133752797747626103 0
-112C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2019\IsDetachedBuffer.js133752797747736119 0
 108C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2019\IsExtensible.js133752797747796140 0
 115C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2019\IsGenericDescriptor.js133752797747866141 0
 101C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\css-tree\lib\syntax\scope133752787124986840 1
@@ -8319,7 +8321,6 @@
 99C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2018\tables133752797756333058 1
 112C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2018\thisBooleanValue.js133752797753047776 0
 111C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2018\thisStringValue.js133752797753137798 0
-119C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\caniuse-lite\data\features\ambient-light.js133752787118556897 0
 111C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2018\thisSymbolValue.js133752797753304618 0
 105C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2018\ToBoolean.js133752797754024733 0
 108C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\es-abstract\2018\ToDateString.js133752797754074746 0
@@ -9584,6 +9585,7 @@
 107C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\caniuse-lite\data\regions\ZA.js133752787129859616 0
 106C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\@parcel\profiler\src\Tracer.js133752787116686886 0
 119C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\caniuse-lite\data\features\accelerometer.js133752787115686891 0
+119C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\caniuse-lite\data\features\ambient-light.js133752787118556897 0
 122C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\caniuse-lite\data\features\array-find-index.js133752787118886907 0
 116C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\caniuse-lite\data\features\array-flat.js133752787119036910 0
 120C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\caniuse-lite\data\features\array-includes.js133752787119086920 0
@@ -11510,3 +11512,12 @@
 107C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\.bin\update-browserslist-db.ps1133752787130078991 0
 90C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\.bin\which.cmd133752797758045317 0
 90C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\node_modules\.bin\which.ps1133752797758045317 0
+96C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\src\images\presenteacion_card.jpg133758994647356949 0
+90C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\logo_home.a6a0f6f3.png133758995546270676 0
+91C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\algar_card.43ce3130.jpg133758995546360704 0
+89C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\mic_home.bd3125fe.jpg133758995546380705 0
+91C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\algar_home.43520d42.jpg133758995546420715 0
+85C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\index.59a40e7a.js133758995546550689 0
+86C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\index.77a9bc14.css133758995546620724 0
+90C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\index.77a9bc14.css.map133758995546650717 0
+90C:\Users\alfonso.ferrando\Desktop\UOC\HerramientasHtlmCSS\PEC1\dist\fort_home.071e35ae.jpg133758995546680701 0

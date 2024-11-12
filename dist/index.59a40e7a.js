@@ -584,9 +584,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"8lRBv":[function(require,module,exports) {
-fetch("./content.html").then((response)=>response.text()).then((data)=>{
-    document.getElementById("app").innerHTML = data;
-}).catch((error)=>console.error("Error cargando el contenido:", error));
+console.log("Iniciando carga de contenido");
 
 },{}]},["aP7aF","8lRBv"], "8lRBv", "parcelRequire3c64")
 
