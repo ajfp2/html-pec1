@@ -26,9 +26,12 @@
     "vm-browserify": "^1.1.2"
   },
   "dependencies": {
+    "data": "^0.6.1",
     "filesystem": "^1.0.1",
     "fs": "^0.0.1-security",
+    "parcel-bundler": "^1.12.5",
     "posthtml": "^0.16.6",
-    "posthtml-url-parameters": "^3.1.0"
+    "posthtml-url-parameters": "^3.1.0",
+    "public": "^0.1.5"
   }
 }

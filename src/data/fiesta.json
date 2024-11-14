@@ -1,22 +1,37 @@
-{
-    
-    "titulo": "Fiestas de Sant Jaume",
+{    
+    "titulo": "Fiestas de Moros y Cristianos",
     "subtitulo": "En honor a la Virgen de las injurias",
     "fecha": "Del 12 al 15 de octubre",
-    "media": "https://www.facebook.com/8lamarinatelevision/videos/al-dia-especial-moros-y-cristianos-callosa-den-sarri%C3%A0/332182666150885/",
+    "media": "https://www.youtube.com/embed/FM6jGYCIt-Q?si=_4rVl3vxgVEflxyp",
+    "tituloLista": "Actos Principales",
     "lista": [
         {
-            "acto": "L'arrancà",
+            "acto": "<b>Acto</b>:L'arrancà",
             "dia": "12 de octubre a las 12:30"
         },
         {
-            "acto": "Entrà Cristiana",
+            "acto": "<b>Acto</b>:Entrà Cristiana",
             "dia": "12 de octubre a las 19:00"
         },
         {
-            "acto": "Ball dels nanos en la Plaza de España",
-            "dia": "13 de octubre a las 12:00"
+            "acto": "<b>Acto</b>:Entra infantil Mora i Cristiana",
+            "dia": "13 de octubre a las 11:30"
+        },
+        {
+            "acto": "<b>Acto</b>:Entrà Mora",
+            "dia": "13 de octubre a las 18:30"
+        },
+        {
+            "acto": "<b>Acto</b>:Tiroteig i Ambaixà Mora",
+            "dia": "14 de octubre a las 16:30"
+        },
+        {
+            "acto": "<b>Acto</b>:Tiroteig i Ambaixà Cristiana",
+            "dia": "15 de octubre a las 16:30"
         }
+
+
+
     ],
     "parrafo1": "Cada dissabte de festes, a les dotze del migdia, Callosa enceta les seues festes de Moros i Cristians amb la tradicional Arrancà de dolçaines. Els passacarrers del dissabte de festes ja són peces tradicionals de les colles dolçaineres, i és ací on prenen la seua raó de ser. A partir d’eixe moment, comencen quatre dies d’actes festers, música i sentiment fester.",
     "parrafo2": "Des de 1860, fent festes de Moros i Cristians.",

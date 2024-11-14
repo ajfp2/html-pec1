@@ -1,24 +1,32 @@
-{
-    
-    "titulo": "Fiestas de Sant Jaume",
-    "subtitulo": "En honor a la Virgen de las injurias",
-    "fecha": "Del 12 al 15 de octubre",
-    "media": "https://www.facebook.com/8lamarinatelevision/videos/al-dia-especial-moros-y-cristianos-callosa-den-sarri%C3%A0/332182666150885/",
+{    
+    "titulo": "Jornadas de la Cuchara",
+    "subtitulo": "Arroces, fideuás, calderetas, olletas y minchos",
+    "fecha": "Del 1 al 30 de noviembre",
+    "media": "https://www.youtube.com/embed/POv5lHZvPzk?si=80-mkialNN5WPK2R",
+    "tituloLista": "Restaurantes Participantes",
     "lista": [
         {
-            "acto": "L'arrancà",
-            "dia": "12 de octubre a las 12:30"
+            "acto": "Restaurante Casa Marcos",
+            "dia": "2 y 3 de noviembre"
         },
         {
-            "acto": "Entrà Cristiana",
-            "dia": "12 de octubre a las 19:00"
+            "acto": "Restaurante Algar de Don Joan",
+            "dia": "9 y 10 de noviembre"
         },
         {
-            "acto": "Ball dels nanos en la Plaza de España",
-            "dia": "13 de octubre a las 12:00"
+            "acto": "Restaurante La Fonda",
+            "dia": "15 y 30 de noviembre"
+        },
+        {
+            "acto": "Restaurante Les Fonts",
+            "dia": "15 y 16 de noviembre"
+        },
+        {
+            "acto": "Restaurante El Valle",
+            "dia": "23 y 24 de noviembre"
         }
     ],
-    "parrafo1": "Cada dissabte de festes, a les dotze del migdia, Callosa enceta les seues festes de Moros i Cristians amb la tradicional Arrancà de dolçaines. Els passacarrers del dissabte de festes ja són peces tradicionals de les colles dolçaineres, i és ací on prenen la seua raó de ser. A partir d’eixe moment, comencen quatre dies d’actes festers, música i sentiment fester.",
-    "parrafo2": "Des de 1860, fent festes de Moros i Cristians.",
-    "parrafo3": "La missió de l’Associació és organitzar una de les festes més veteranes del mon fester. Sóm més de 2.800 socis, dels quals, 1.000 són socis festers, és a dir, pertanyen a alguna filà, i la resta són socis no festers."    
+    "parrafo1": "Destaca el “putxero amb pilotes”, plato típico en fiestas patronales de Moros y Cristianos. Que consta de tres platos: sopa de fideos hecha con el caldo del cocido, pelotas de carne picada envueltas en hojas de col hervida y el “putxero” (cocido) hecho con la carne y los garbanzos.",
+    "parrafo2": "El arroz es la base de otros muchos platos importantes, como el “arròs en costra”, plato típico de carnaval. Es un arroz seco y contiene entre otros ingredientes, embutidos, cubierto de huevo batido, hecho al horno en cazuela de barro. Otros arroces a destacar son el “arròs al forn” (arroz al horno) y “l’olleta”.",
+    "parrafo3": "El plato típico de los días de lluvia lo constituyen los “minxos”. Se trata de una base hecha de pasta de harina, escaldada, sobre la que se ponen todo tipo de verduras troceadas (fresca y en salmuera) y pescado (pescadilla y “sepionet”) que se coloca sobre una tabla de madera para llevar a ser horneado. Se come acompañado de “all i oli” y vino tinto."    
 }

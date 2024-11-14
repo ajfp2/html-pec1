@@ -1,0 +1,60 @@
+
+.title {
+    margin: 15px;
+    font-size: 2rem;
+    text-align: center;
+    padding: 5px;
+}
+
+.subtitle {
+    margin: 10px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.fechaTitle {
+    text-align: start;
+}
+
+article {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+}
+
+#app-main .gridArticle {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    display: grid;
+    margin-inline: auto;
+    max-width: 1200px;
+    /* grid-template-columns: repeat(auto-fill, minmax(460px, 1fr)); */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+#app-main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    /* margin: 0 auto 1rem; */
+    border-radius: 10px;
+}
+
+#app-main video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.parrafos_det {
+    margin: 0 auto;
+    width: 80%;
+    text-align: justify;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}

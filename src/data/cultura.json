@@ -1,24 +1,32 @@
-{
-    
-    "titulo": "Fuentes del Algar",
-    "subtitulo": "Paraje natural con piscinas naturales",
-    "fecha": "Todo el año",
-    "media": "https://www.youtube.com/watch?v=X6XC2cdNE08",
+{    
+    "titulo": "Patrimonio Cultural",
+    "subtitulo": "Desde un excelente paraje natural hasta un hermoso casco antiguo",
+    "fecha": "Del 1 al 30 de noviembre",
+    "media": "https://www.youtube.com/embed/X6XC2cdNE08?si=mBIxh7pvCHCn4pGd",
+    "tituloLista": "Sitios importantes",
     "lista": [
         {
-            "acto": "Toll de la caldera",
-            "dia": "12 de octubre a las 12:30"
+            "acto": "Les fontes del algar",
+            "dia": "<a href='https://lasfuentesdelalgar.com/'>Visitar Web</a>"
         },
         {
-            "acto": "Toll Blau",
-            "dia": "12 de octubre a las 19:00"
+            "acto": "El Portal",
+            "dia": ""
         },
         {
-            "acto": "Font del Moro",
-            "dia": "13 de octubre a las 12:00"
+            "acto": "Museo Etnológico y Arqueológico",
+            "dia": ""
+        },
+        {
+            "acto": "Iglesia Arciprestal de San Juan Bautista",
+            "dia": ""
+        },
+        {
+            "acto": "El Poador de la Font Major",
+            "dia": ""
         }
     ],
-    "parrafo1": "Excelente paraje natural con pozas para bañarse en sus aguas cristalinas salidas de manantial",
-    "parrafo2": "Podrás ir bañandote en sus distinas pozas hasta poder llegar al nacimiento del rio.",
-    "parrafo3": "Este paraje natural cuenta con zonas de picnic, camping, parkings y restaurantes donde poder degustar la gastronomía de callosa."    
+    "parrafo1": "La primera noticia que se tiene de la Iglesia actual es del año 1574, cuando se constituye la Iglesia Parroquial de Callosa que en el año 1578 fue inaugurada por Francisco de Mesa. En la segunda mitad del siglo XVIII se plantea su ampliación y en 1765 empieza la construcción del crucero acabándose en el año 1786. En el año 1819 las obras son en la fachada que se realiza en mármol de las canteras locales y que no se finaliza hasta el año 1865. El cuerpo superior de la fachada no se hará hasta el año 1917, pero no en mármol negro sino en cemento pintado imitando al mármol.",
+    "parrafo2": "El órgano de la Iglesia de San Juan Bautista es un órgano barroco construido, supuestamente, en el año 1754 por Bartolomé Sanchez para un convento de Cocentaina, y que fue comprado y trasladado a Callosa en el año 1845.",
+    "parrafo3": "Exteriormente el instrumento nos presenta una fachada estilo neoclásico de madera natural de acuerdo con el resto la iglesia. Dado el buen estado del órgano se sigue utilizando con mucha frecuencia en conciertos y misas."    
 }
