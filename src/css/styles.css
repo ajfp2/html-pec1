@@ -18,6 +18,9 @@
 * {
   box-sizing: border-box;
 }
+h1, h2, h3 {
+  text-align: center;
+}
 
 body {
   font-family: Arial, sans-serif;
@@ -118,6 +121,23 @@ main {
   padding: 20px;
 }
 
+.girdCategorias {
+  display: grid;
+  margin-inline: auto;
+  max-width: 1200px;
+  /* grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.text-app {
+  margin: 0 auto;
+  max-width: 80%;
+  padding: 5px 0px 30px 5px;
+  text-align: justify;
+}
+
 .card {
   --img-scale: 1.001;
   --title-color: black;
@@ -165,9 +185,22 @@ main {
 
 /* CARDS SECTIONS ==> https://codepen.io/utilitybend/pen/bGvjLba*/
 
-/* .girdMain section:nth-child(even) {
-  background-color: #f4f4f4;
-} */
+.cardCategorias {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 16px;
+  background-color: var(--blanco-color);
+}
+.desc-card {
+  color: var(--gris-color);
+  text-align: justify;
+  padding: 10px;
+ }
+.create-card{
+  text-align: right;
+  font-size: 10px;
+  opacity: 0.5;
+}
 
 
 /* FOOTER DE LAS PAGINAS */

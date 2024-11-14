@@ -1,23 +1,19 @@
 console.log('Iniciando carga de contenido');
 
 document.addEventListener('DOMContentLoaded', () => {
-    const links = document.querySelectorAll('.menu-link');
+    console.log("LINKS");
     
+    const links = document.querySelectorAll('.menu-link');
+    const contentUrl = document.getElementById("main-nav").getAttribute('data-url');
     links.forEach(link => {
-        
-                
         link.addEventListener('click', event => {
-            console.log("click en", link);
-            event.preventDefault();
-            
+            // event.preventDefault();
             links.forEach((link) => {link.classList.remove('active');});
-
-            const contentUrl = event.target.getAttribute('href');
+            console.log("URL",contentUrl);
             const href = link.getAttribute('href');
             if(contentUrl == href){
                 link.classList.add('active');
-            }
-            
+            }            
         });
     });
 });

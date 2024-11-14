@@ -10,17 +10,16 @@
     <div class="logo">
         <a href="/index.html"><img src="/logo_home.a6a0f6f3.png" alt="Logo del Pueblo Encantador"></a>
     </div>
-    <nav>
+    <nav id="main-nav" data-url="categorias">
         <ul>
-            <li><a href="/index.html" class="menu-link active">Portada</a></li>
+            <li><a href="/index.html" class="menu-link">Portada </a></li>
             <li class="dropdown">
-                <a href="#" class="menu-link dropbtn">Categorías</a>
+                <a href="/categorias.html" class="menu-link dropbtn">Categorías</a>
                 <div class="dropdown-content">
-                    <a href="#historia-antigua" class="menu-link">Fiestas</a>
-                    <a href="#historia-moderna" class="menu-link">Gastronomía</a>
-                    <a href="#historia-moderna" class="menu-link">Patrimonio Cultural</a>
-                    <a href="#historia-moderna" class="menu-link">Historia</a>
-                    <a href="#lugares" class="menu-link">Ruchey</a>
+                    <a href="/detalle.html#fiesta" class="menu-link">Fiestas</a>
+                    <a href="/detalle.html#gastronomia" class="menu-link">Gastronomía</a>
+                    <a href="/detalle.html#cultura" class="menu-link">Patrimonio Cultural</a>                    
+                    <a href="/detalle.html#ruchey" class="menu-link">Ruchey</a>
                 </div>
             </li>            
             <!-- <li><a href="#contacto" class="menu-link">Presentación</a></li>
@@ -34,7 +33,77 @@
 
 
         <div id="app-main">
-            <p>Este es el contenido adicional de Categorias.</p>
+            <h2>Este es el contenido adicional de Categorias.</h2>
+
+            <div class="girdCategorias">
+                <section class="card">
+                    <figure>
+                        <img src="/mic.be6dba65.jpg" alt="Foto card de las Fiestas MiC">
+                    </figure>
+                    <div class="card-body">
+                        <h2>Fiestas</h2>
+                        <p>Nuestras populares fiestas de Moros y Cristianos de interés turístico nacional.</p>
+                        <a href="/detalle.html#fiesta" class="read-more">Ver mas +</a>
+                    </div>
+                </section>
+        
+                <section class="card">
+                    <figure>
+                        <img src="/minchos.07d88b45.jpg" alt="Foto card de la Gastronomía">
+                    </figure>
+                    <div class="card-body">
+                        <h2>Gastronomía</h2>
+                        <p>Ven a comer a nuestros espectaculares restaurantes.</p>
+                        <a href="/detalle.html#gastronomia" class="read-more">Ver mas +</a>
+                    </div>
+                </section>
+        
+                <section class="card">
+                    <figure>
+                        <img src="/portal.3ec71979.jpg" alt="Foto card de Patrimonio">
+                    </figure>
+                    <div class="card-body">
+                        <h2>Patrimonio Cultural</h2>
+                        <p>Visite nuestro casco antiguo.</p>
+                        <a href="/detalle.html#cultura" class="read-more">Ver mas +</a>
+                    </div>
+                </section>
+                <section class="card">
+                    <figure>
+                        <img src="/ruchey.448b1984.jpg" alt="Foto card de cooperativa">
+                    </figure>
+                    <div class="card-body">
+                        <h2>Ruchey</h2>
+                        <p>Ven a ver nuestra cooperativa fruticola.</p>
+                        <a href="/detalle.html#ruchey" class="read-more">Ver mas +</a>
+                    </div>
+                </section> 
+            </div>
+
+            <h2>Próximos eventos</h2>
+
+            <div class="girdCategorias">
+                <div class="cardCategorias">
+                    <h3>IV Jornaes de la Cullera</h3>
+                    <p class="desc-card">Durante el mes de noviembre se celebra las jornadas de la cuchara, donde en cualquier restaurantes puedes probar nuestros arroces.</p>
+                    <p class="date-card">Fecha: Todo el mes</p>
+                    <p class="create-card">Publicado el: 29 de octubre 2024</p>
+                </div>
+
+                <div class="cardCategorias">
+                    <h3>Rally Guadalest - Callosa</h3>
+                    <p class="desc-card">Castell de Guadalest y Callosa d’En Sarrià, protagonistas en el Rallye La Nucía Mediterráneo ‘Trofeo Costa Blanca’</p>
+                    <p class="date-card">Fecha: 5 al 9/11</p>
+                    <p class="create-card">Publicado el: 2 de noviembre 2024</p>
+                </div>
+
+                <div class="cardCategorias">
+                    <h3>Formatgeria Sant Antoni</h3>
+                    <p class="desc-card">La quesería Sant Antoni gana 3 medallas de los Premios Cincho del Concurso Internacional de quesos.</p>
+                    <p class="date-card">Fecha: 5 al 9/11</p>
+                    <p class="create-card">Publicado el: 9 de noviembre 2024</p>
+                </div>
+            </div>
         </div>
 
         <footer>

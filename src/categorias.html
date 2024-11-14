@@ -6,11 +6,81 @@
         <link rel="stylesheet" href="./css/styles.css" />
     </head>
     <body>
-        <include src="./headers/header.html"></include>
+        <include src="./headers/header.html" locals='{"active": "categorias"}'></include>
 
 
         <div id="app-main">
-            <p>Este es el contenido adicional de Categorias.</p>
+            <h2>Este es el contenido adicional de Categorias.</h2>
+
+            <div class="girdCategorias">
+                <section class="card">
+                    <figure>
+                        <img src="images/cards/mic.jpg" alt="Foto card de las Fiestas MiC" />
+                    </figure>
+                    <div class="card-body">
+                        <h2>Fiestas</h2>
+                        <p>Nuestras populares fiestas de Moros y Cristianos de interés turístico nacional.</p>
+                        <a href="detalle.html#fiesta" class="read-more">Ver mas +</a>
+                    </div>
+                </section>
+        
+                <section class="card">
+                    <figure>
+                        <img src="images/cards/minchos.jpg" alt="Foto card de la Gastronomía" />
+                    </figure>
+                    <div class="card-body">
+                        <h2>Gastronomía</h2>
+                        <p>Ven a comer a nuestros espectaculares restaurantes.</p>
+                        <a href="detalle.html#gastronomia" class="read-more">Ver mas +</a>
+                    </div>
+                </section>
+        
+                <section class="card">
+                    <figure>
+                        <img src="images/cards/portal.jpg" alt="Foto card de Patrimonio" />
+                    </figure>
+                    <div class="card-body">
+                        <h2>Patrimonio Cultural</h2>
+                        <p>Visite nuestro casco antiguo.</p>
+                        <a href="detalle.html#cultura" class="read-more">Ver mas +</a>
+                    </div>
+                </section>
+                <section class="card">
+                    <figure>
+                        <img src="images/cards/ruchey.jpg" alt="Foto card de cooperativa" />
+                    </figure>
+                    <div class="card-body">
+                        <h2>Ruchey</h2>
+                        <p>Ven a ver nuestra cooperativa fruticola.</p>
+                        <a href="detalle.html#ruchey" class="read-more">Ver mas +</a>
+                    </div>
+                </section> 
+            </div>
+
+            <h2>Próximos eventos</h2>
+
+            <div class="girdCategorias">
+                <div class="cardCategorias">
+                    <h3>IV Jornaes de la Cullera</h3>
+                    <p class="desc-card">Durante el mes de noviembre se celebra las jornadas de la cuchara, donde en cualquier restaurantes puedes probar nuestros arroces.</p>
+                    <p class="date-card">Fecha: Todo el mes</p>
+                    <p class="create-card">Publicado el: 29 de octubre 2024</p>
+                </div>
+
+                <div class="cardCategorias">
+                    <h3>Rally Guadalest - Callosa</h3>
+                    <p class="desc-card">Castell de Guadalest y Callosa d’En Sarrià, protagonistas en el Rallye La Nucía Mediterráneo ‘Trofeo Costa Blanca’</p>
+                    <p class="date-card">Fecha: 5 al 9/11</p>
+                    <p class="create-card">Publicado el: 2 de noviembre 2024</p>
+                </div>
+
+                <div class="cardCategorias">
+                    <h3>Formatgeria Sant Antoni</h3>
+                    <p class="desc-card">La quesería Sant Antoni gana 3 medallas de los Premios Cincho del Concurso Internacional de quesos.</p>
+                    <p class="date-card">Fecha: 5 al 9/11</p>
+                    <p class="create-card">Publicado el: 9 de noviembre 2024</p>
+                </div>
+            </div>
         </div>
 
         <include src="./headers/footer.html"></include>
