@@ -23,9 +23,11 @@
     "posthtml-include": "^2.0.1",
     "process": "^0.11.10",
     "rimraf": "^6.0.1",
+    "sass": "^1.81.0",
     "vm-browserify": "^1.1.2"
   },
   "dependencies": {
+    "css": "^3.0.0",
     "data": "^0.6.1",
     "filesystem": "^1.0.1",
     "fs": "^0.0.1-security",

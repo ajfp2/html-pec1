@@ -11,13 +11,13 @@
   --contrast-claro-color: rgb(229, 225, 254);
   --fondo-color: rgb(247, 247, 247);
   --gris-color: rgb(158, 157, 171);
-
   --img-scale: 1.001;
 }
 
 * {
   box-sizing: border-box;
 }
+
 h1, h2, h3 {
   text-align: center;
   padding: 10px;
@@ -39,12 +39,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 40px; /* Aumenta el tamaño de la cabecera */
+  padding: 10px 40px; /* Aumenta el tamaño de la cabecera para hacerlo mas ancho */
   flex-wrap: wrap;
 }
 
 .logo img {
-  height: 80px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: 80px; /* Ajusta el tamaño de la imagen */
 }
 
 nav ul {
@@ -109,7 +109,7 @@ nav ul li a.active {
 }
 
 main {
-  padding-top: 10px; /* Altura del header */ 
+  padding-top: 10px; /* Le sumo la altura del header por el padding  */ 
 }
 
 .girdMain {
@@ -177,7 +177,6 @@ main {
   content: "";
 }
 
-/* basic article elements styling */
 .card-body h2 {
   margin: 0 0 18px 0;
   font-size: 1.9rem;
@@ -237,24 +236,74 @@ footer a{
 
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+ 
+/* TABLETS */
+@media (min-width: 768px) {
   header {
       padding: 10px 20px;
   }
 
   nav ul {
-      flex-direction: column;
       align-items: center;
   }
 
   nav ul li {
       margin: 10px 0;
+      font-size: 18px;
+  }
+
+  .girdMain {
+    display: grid;
+    margin-inline: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .girdCategorias {
+    display: grid;
+    margin-inline: auto;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+}
+
+/* MOVILES */
+@media (min-width: 576px) {
+  header {
+    padding: 10px 20px;
+  }
+
+  nav ul {
+      align-items: center;
+  }
+
+  nav ul li {
+      margin: 10px 0;
+      font-size: 18px;
+  }
+
+  .girdMain {
+    display: grid;
+    margin-inline: auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .girdCategorias {
+    display: grid;
+    margin-inline: auto;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 20px;
+    padding: 20px;
   }
 }
 
 
 /* Buscado en: https://codepen.io/Luisarias/pen/VaypEd */
-div#slider { overflow: hidden; padding-top: 100px;} /* las imágenes no van a salir del márgen de la pantalla*/
+div#slider { overflow: hidden; padding-top: 100px;} 
 div#slider figure img { width: 20%; float: left; }
 
 div#slider figure { 
@@ -265,16 +314,15 @@ div#slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 30s slidy infinite; /*el movimiento se va a mantener de forma indefinida -infinito-*/
+  animation: 30s slidy infinite; 
 }
 
 div#slider img {
   width: 100%;
   height: auto;
-  max-height: 700px; /* Ajusta la altura máxima de las imágenes del slider */
+  max-height: 700px; 
 }
 
-/*esta parte del código define el movimiento de las imágenes a la izquierda*/
 @keyframes slidy {
 0% { left: 0%; }
 20% { left: 0%; }
@@ -289,4 +337,68 @@ div#slider img {
 
 div#app-main { padding-top: 100px;}
 
+.title {
+  margin: 15px;
+  font-size: 2rem;
+  text-align: center;
+  padding: 5px;
+}
+
+.subtitle {
+  margin: 10px;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.fechaTitle {
+  text-align: start;
+}
+
+article {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+#app-main .gridArticle {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  display: grid;
+  margin-inline: auto;
+  max-width: 1200px;
+  /* grid-template-columns: repeat(auto-fill, minmax(460px, 1fr)); */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+#app-main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  /* margin: 0 auto 1rem; */
+  border-radius: 10px;
+}
+
+#app-main video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.parrafos_det {
+  margin: 0 auto;
+  width: 80%;
+  text-align: justify;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+.vacio {
+  margin: 50px;
+  height: 120px;
+}
 

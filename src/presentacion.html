@@ -7,16 +7,47 @@
     </head>
     <body>
         <include src="./headers/header.html" locals='{"active": "presentacion"}'></include>
-        
-
-        
+                
         <div id="app-main">
-            <p>Este es el contenido adicional de Presentación.</p>
+            <h1>Presentación</h1>
+            <h4 class="subtitle">Explicación contenido página</h4>
+
+            <article class="girdMain">
+                <section class="card">
+                    <iframe width="560" height="315" id="media" src="https://www.youtube.com/embed/j93yo_Zr_bs?si=xxJXTO66c9E7RfK6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    <div class="card-body">
+                        <h2>Portada</h2>
+                        <p>He puesto un slider con las fotos que creo que mas puede representar lo que es mi pueblo, luego 3 cards con el mismo texto y enlace que en el menú superior y luego un poco de historia de donde viene el nombre de Callosa.</p>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <figure>
+                        <img src="images/fort_home.jpg" alt="Foto card de las fuentes del algar"   />
+                    </figure>
+                    
+                    <div class="card-body">
+                        <h2>Categoría</h2>
+                        <p>Aquí he creado varias páginas, una de categoría principal donde muestro todas las categorias de la página y otra de detalle donde cargo la información de un archivo json.</p>
+                        <p>En cada card de la categoría lleva a un enlace que va a la misma página html pero carga distintos datos según el parametro de la URL.</p>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <figure>
+                        <img src="images/llavaor_home.jpg" alt="Foto card de las fuentes del algar" />
+                    </figure>
+                    <div class="card-body">
+                        <h2>Detalle</h2>
+                        <p>Muestro los datos de cada categoría pasada por paramentro</p>
+                        <p>He creado el html que se rellena en función del json solicitado, la estructura de los archivos json es la misma para facilitar el trabajo.</p>
+                    </div>
+                </section>
+            </article>
         </div>
         
 
         <include src="./headers/footer.html"></include>
-        <!-- <script type="module" src="./js/categorias.js"></script> -->
         <script src="./js/index.js"></script>
     </body>
 </html>
