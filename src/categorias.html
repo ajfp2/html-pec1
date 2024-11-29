@@ -3,59 +3,61 @@
     <head>
         <meta charset="utf-8"/>
         <title>Callosa- Portada</title>
-        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
-        <include src="./headers/header.html" locals='{"active": "categorias"}'></include>
+        <include src="headers/header.html"></include>
 
 
         <div id="app-main">
             <h2>Este es el contenido adicional de Categorias.</h2>
 
             <div class="girdCategorias">
+
                 <section class="card">
-                    <figure>
-                        <img src="images/cards/mic.jpg" alt="Foto card de las Fiestas MiC" />
-                    </figure>
-                    <div class="card-body">
-                        <h2>Fiestas</h2>
-                        <p>Nuestras populares fiestas de Moros y Cristianos de interés turístico nacional.</p>
-                        <a href="detalle.html?det=fiesta" class="read-more">Ver mas +</a>
-                    </div>
-                </section>
-        
-                <section class="card">
-                    <figure>
-                        <img src="images/cards/minchos.jpg" alt="Foto card de la Gastronomía" />
-                    </figure>
-                    <div class="card-body">
-                        <h2>Gastronomía</h2>
-                        <p>Ven a comer a nuestros espectaculares restaurantes.</p>
-                        <a href="detalle.html?det=gastronomia" class="read-more">Ver mas +</a>
-                    </div>
-                </section>
-        
-                <section class="card">
-                    <figure>
-                        <img src="images/cards/portal.jpg" alt="Foto card de Patrimonio" />
-                    </figure>
-                    <div class="card-body">
-                        <h2>Patrimonio Cultural</h2>
-                        <p>Visite nuestro casco antiguo.</p>
-                        <a href="detalle.html?det=cultura" class="read-more">Ver mas +</a>
-                    </div>
-                </section>
-                <section class="card">
-                    <figure>
-                        <img src="images/cards/ruchey.jpg" alt="Foto card de cooperativa" />
-                    </figure>
-                    <div class="card-body">
-                        <h2>Ruchey</h2>
-                        <p>Ven a ver nuestra cooperativa fruticola.</p>
-                        <a href="detalle.html?det=ruchey" class="read-more">Ver mas +</a>
-                    </div>
-                </section> 
-            </div>
+                   <figure>
+                       <img src="images/cards/mic.jpg" alt="Foto card de las Fiestas MiC" />
+                   </figure>
+                   <div class="card-body">
+                       <h2>Fiestas</h2>
+                       <p>Nuestras populares fiestas de Moros y Cristianos de interés turístico nacional.2</p>
+                       <a href="detalle.html" class="read-more submenu" data-url="fiesta">Ver mas +</a>
+                   </div>
+               </section>
+
+               <section class="card">
+                   <figure>
+                       <img src="images/cards/minchos.jpg" alt="Foto card de la Gastronomía" />
+                   </figure>
+                   <div class="card-body">
+                       <h2>Gastronomía</h2>
+                       <p>Ven a comer a nuestros espectaculares restaurantes.</p>
+                       <a href="detalle.html" class="read-more submenu" data-url="gastronomia">Ver mas +</a>
+                   </div>
+               </section>
+       
+               <section class="card">
+                   <figure>
+                       <img src="images/cards/portal.jpg" alt="Foto card de Patrimonio" />
+                   </figure>
+                   <div class="card-body">
+                       <h2>Patrimonio Cultural</h2>
+                       <p>Visite nuestro casco antiguo.</p>
+                       <a href="detalle.html" class="read-more submenu" data-url="cultura">Ver mas +</a>
+                   </div>
+               </section>
+
+               <section class="card">
+                   <figure>
+                       <img src="images/cards/ruchey.jpg" alt="Foto card de cooperativa" />
+                   </figure>
+                   <div class="card-body">
+                       <h2>Ruchey</h2>
+                       <p>Ven a ver nuestra cooperativa fruticola.</p>
+                       <a href="detalle.html" class="read-more submenu" data-url="ruchey">Ver mas +</a>
+                   </div>
+               </section> 
+           </div>
 
             <h2>Próximos eventos</h2>
 
@@ -83,7 +85,6 @@
             </div>
         </div>
 
-        <include src="./headers/footer.html"></include>
-        <script src="./js/index.js"></script>
+        <include src="headers/footer.html"></include>
     </body>
 </html>

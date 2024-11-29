@@ -2,23 +2,24 @@
     <div class="logo">
         <a href="index.html"><img src="images/logo_home.png" alt="Logo del Pueblo Encantador"></a>
     </div>
-    <nav id="main-nav" data-url="{{ active }}">
+
+    
+    <nav id="main-nav">
         <ul>
             <li><a href="index.html" class="menu-link">Portada </a></li>
             <li class="dropdown">
                 <a href="categorias.html" class="menu-link dropbtn">Categorías</a>
                 <div class="dropdown-content">
-                    <a href="detalle.html?det=fiesta" class="menu-link">Fiestas</a>
-                    <a href="detalle.html?det=gastronomia" class="menu-link">Gastronomía</a>
-                    <a href="detalle.html?det=cultura" class="menu-link">Patrimonio Cultural</a>                    
-                    <a href="detalle.html?det=ruchey" class="menu-link">Ruchey</a>
+                    <a href="detalle.html" data-url="fiesta" class="menu-link submenu">Fiestas</a>
+                    <a href="detalle.html" data-url="gastronomia" class="menu-link submenu">Gastronomía</a>
+                    <a href="detalle.html" data-url="cultura" class="menu-link submenu">Patrimonio Cultural</a>                    
+                    <a href="detalle.html" data-url="ruchey" class="menu-link submenu">Ruchey</a>
                 </div>
-            </li>            
-            <!-- <li><a href="#contacto" class="menu-link">Presentación</a></li>
-            <li><a href="#contacto" class="menu-link">Enlaces</a></li> -->
+            </li>           
+
             <li><a href="presentacion.html" class="menu-link">Presentación</a></li>
             <li><a href="enlaces.html" class="menu-link">Enalces</a></li>
-            <!-- <li><a href="#" data-url="enlaces.html" class="load-content">Enalces</a></li> -->
         </ul>
     </nav>
+
 </header>

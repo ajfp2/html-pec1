@@ -1,8 +1,8 @@
 {
-  "plugins": {
-    "posthtml-doctype": { "doctype": "HTML 5" },
-    "posthtml-include": {
-      "root": "./src"
+    "plugins": {
+        "posthtml-include": {
+            "root": "./src/",
+            "encoding": "utf-8"
+        }
     }
-  }
 }
