@@ -2,21 +2,27 @@
 <html lang="es">
     <head>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Callosa- Portada</title>
         <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
         <include src="headers/header.html"></include>
 
+        <h1>Categorias</h1>
 
         <div id="app-main">
-            <h2>Este es el contenido adicional de Categorias.</h2>
+            <h2>Los principales sitios a visitar en mi pueblo.</h2>
 
             <div class="girdCategorias">
 
                 <section class="card">
                    <figure>
-                       <img src="images/cards/mic.jpg" alt="Foto card de las Fiestas MiC" />
+                        <picture>
+                            <source srcset="images/cards/mic.webp?as=webp&width=480" type="image/webp" media="(max-width: 480px)"/>
+                            <source srcset="images/cards/mic_3x.jpg?as=webp&width=800" type="image/webp" media="(max-width: 1200px)"/>
+                            <img src="images/cards/mic_2x.jpg" alt="Foto card de Patrimonio" />
+                        </picture>                       
                    </figure>
                    <div class="card-body">
                        <h2>Fiestas</h2>
@@ -38,7 +44,11 @@
        
                <section class="card">
                    <figure>
-                       <img src="images/cards/portal.jpg" alt="Foto card de Patrimonio" />
+                        <picture>
+                            <source srcset="images/cards/portal.jpg?as=webp&width=480" type="image/webp" media="(max-width: 480px)"/>
+                            <source srcset="images/cards/portal_2x.jpg?as=webp&width=800" type="image/webp" media="(max-width: 1200px)"/>
+                            <img src="images/cards/portal_2x.jpg" alt="Foto card de Patrimonio" />
+                        </picture>
                    </figure>
                    <div class="card-body">
                        <h2>Patrimonio Cultural</h2>
@@ -49,7 +59,11 @@
 
                <section class="card">
                    <figure>
-                       <img src="images/cards/ruchey.jpg" alt="Foto card de cooperativa" />
+                        <picture>
+                            <source srcset="images/cards/ruchey.jpg?as=webp&width=480" type="image/webp" media="(max-width: 480px)"/>
+                            <source srcset="images/cards/ruchey_2x.jpg?as=webp&width=800" type="image/webp" media="(max-width: 1200px)"/>
+                            <img src="images/cards/ruchey_2x.jpg" alt="Foto card de Patrimonio" />
+                        </picture>
                    </figure>
                    <div class="card-body">
                        <h2>Ruchey</h2>
@@ -72,15 +86,15 @@
                 <div class="cardCategorias">
                     <h3>Rally Guadalest - Callosa</h3>
                     <p class="desc-card">Castell de Guadalest y Callosa d’En Sarrià, protagonistas en el Rallye La Nucía Mediterráneo ‘Trofeo Costa Blanca’</p>
-                    <p class="date-card">Fecha: 5 al 9/11</p>
+                    <p class="date-card">Fecha: 15 al 19/12</p>
                     <p class="create-card">Publicado el: 2 de noviembre 2024</p>
                 </div>
 
                 <div class="cardCategorias">
                     <h3>Formatgeria Sant Antoni</h3>
                     <p class="desc-card">La quesería Sant Antoni gana 3 medallas de los Premios Cincho del Concurso Internacional de quesos.</p>
-                    <p class="date-card">Fecha: 5 al 9/11</p>
-                    <p class="create-card">Publicado el: 9 de noviembre 2024</p>
+                    <p class="date-card">Fecha: 20 al 19/12</p>
+                    <p class="create-card">Publicado el: 9 de diciembre 2024</p>
                 </div>
             </div>
         </div>

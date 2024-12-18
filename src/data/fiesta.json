@@ -1,6 +1,12 @@
 {    
     "titulo": "Fiestas de Moros y Cristianos",
     "subtitulo": "En honor a la Virgen de las injurias",
+    "foto1" : "",
+    "txtFoto1" : "",
+    "foto2" : "",
+    "txtFoto2" : "",
+    "foto3" : "",
+    "txtFoto3" : "",
     "fecha": "Del 12 al 15 de octubre",
     "media": "https://www.youtube.com/embed/FM6jGYCIt-Q?si=_4rVl3vxgVEflxyp",
     "tituloLista": "Actos Principales",

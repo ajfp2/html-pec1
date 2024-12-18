@@ -2,12 +2,14 @@
 console.log('Iniciando carga de contenido');
 
 
+document.addEventListener('DOMContentLoaded', () => {
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menu = document.querySelector('.menu');
 
-    // const links = document.querySelectorAll('.menu-link');
-    // const contentUrl = document.getElementById("main-nav").getAttribute('data-url');
-
-
-
+    mobileMenu.addEventListener('click', () => {
+        menu.classList.toggle('active');
+    });
+});
 
 document.addEventListener('DOMContentLoaded', () => {
     const links = document.querySelectorAll('.submenu');

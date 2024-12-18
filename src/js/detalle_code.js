@@ -27,6 +27,7 @@ switch(content){
         data = dataR;
     break;
 }
+
 document.addEventListener('DOMContentLoaded', () => {
 
     // Llenamos los datos del html
