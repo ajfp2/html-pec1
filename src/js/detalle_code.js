@@ -34,6 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const titulo = document.getElementById("title");
     const subtitulo = document.getElementById("subtitle");
 
+    const fotoDestacada = document.getElementById("imgDestacada");
+
     const fecha = document.getElementById("fecha");
     const media = document.getElementById("media");
 
@@ -48,6 +50,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     titulo.innerHTML = data.titulo;
     subtitulo.innerHTML = data.subtitulo;
+
+    let sources = '';
+    console.log("log",data.fotoDestacada);
+    console.log("hijos",fotoDestacada.children);
+    data.fotoDestacada.sources.forEach((sc, index) => {
+        console.log("i", index);
+        fotoDestacada.children[index].srcset = new URL("../images/cards/mic_3x.jpg", import.meta.url);
+        fotoDestacada.children[index].type = sc.type;
+        fotoDestacada.children[index].media = sc.media;
+    });
+    fotoDestacada.children[2].src = new URL("../images/cards/mic_2x.jpg", import.meta.url); // .toString() required?
+    fotoDestacada.children[2].alt = data.fotoDestacada.alt;
+
 
     fecha.innerHTML = data.fecha;
     media.src = data.media;

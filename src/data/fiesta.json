@@ -1,12 +1,30 @@
 {    
     "titulo": "Fiestas de Moros y Cristianos",
     "subtitulo": "En honor a la Virgen de las injurias",
-    "foto1" : "",
-    "txtFoto1" : "",
-    "foto2" : "",
-    "txtFoto2" : "",
-    "foto3" : "",
-    "txtFoto3" : "",
+    "fotoDestacada": {
+        "src": "../images/cards/mic_2x.jpg",
+        "alt": "Foto destacada categoría fiestas",
+        "sources": [
+            {
+                "srcset" : "images/cards/mic.webp?width=480",
+                "type": "image/webp",
+                "media": "(max-width: 480px)"
+            },
+            {
+                "srcset" : "images/cards/mic_3x.jpg?as=webp&width=800",
+                "type": "image/webp",
+                "media": "(max-width: 1200px)"
+            }
+        ]
+    },
+    "fotos": [
+        {
+            "src": "",
+            "sizes": "",
+            "srcset": "",
+            "txt": ""
+        }
+    ],    
     "fecha": "Del 12 al 15 de octubre",
     "media": "https://www.youtube.com/embed/FM6jGYCIt-Q?si=_4rVl3vxgVEflxyp",
     "tituloLista": "Actos Principales",
@@ -35,9 +53,6 @@
             "acto": "<b>Acto</b>:Tiroteig i Ambaixà Cristiana",
             "dia": "15 de octubre a las 16:30"
         }
-
-
-
     ],
     "parrafo1": "Cada dissabte de festes, a les dotze del migdia, Callosa enceta les seues festes de Moros i Cristians amb la tradicional Arrancà de dolçaines. Els passacarrers del dissabte de festes ja són peces tradicionals de les colles dolçaineres, i és ací on prenen la seua raó de ser. A partir d’eixe moment, comencen quatre dies d’actes festers, música i sentiment fester.",
     "parrafo2": "Des de 1860, fent festes de Moros i Cristians.",
