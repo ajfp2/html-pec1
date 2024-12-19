@@ -629,6 +629,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
     const titulo = document.getElementById("title");
     const subtitulo = document.getElementById("subtitle");
     const fotoDestacada = document.getElementById("imgDestacada");
+    // const card1 = document.getElementById("card_det_1");
+    // const card2 = document.getElementById("card_det_2");
+    // const card3 = document.getElementById("card_det_3");
     const fecha = document.getElementById("fecha");
     const media = document.getElementById("media");
     const tituloLista = document.getElementById("tituloLista");
@@ -639,17 +642,71 @@ document.addEventListener('DOMContentLoaded', ()=>{
     // METEMOS LOS DATOS EN EL DOM **********************************
     titulo.innerHTML = data.titulo;
     subtitulo.innerHTML = data.subtitulo;
-    let sources = '';
     data.fotoDestacada.sources.forEach((sc, index)=>{
-        console.log("i", index);
-        if (index == 0) //480
-        fotoDestacada.children[index].srcset = new URL(require("3a682d616c13407b"));
-        else fotoDestacada.children[index].srcset = new URL(require("515a8a9ad53f816d"));
+        let url = null;
+        switch(content){
+            case "fiesta":
+                if (index == 0) url = new URL(require("2cf050caf64c50cc"));
+                else if (index == 1) url = new URL(require("c68eaee3056e92d2"));
+                else url = new URL(require("af77b2931bccd28f"));
+                break;
+            case "gastronomia":
+                if (index == 0) url = new URL(require("adcf70ad3b9993"));
+                else if (index == 1) url = new URL(require("32b560d130f4f40d"));
+                else url = new URL(require("6bb9bc6d315b36aa"));
+                break;
+            case "cultura":
+                if (index == 0) url = new URL(require("ebd8b0885cb97f21"));
+                else if (index == 1) url = new URL(require("310fb687ada3a3af"));
+                else url = new URL(require("4844e27cb59b60a7"));
+                break;
+            case "ruchey":
+                if (index == 0) url = new URL(require("8304fff2c9add431"));
+                else if (index == 1) url = new URL(require("da3b0119421c8834"));
+                else url = new URL(require("eba36c8359880b8d"));
+                break;
+        }
+        fotoDestacada.children[index].srcset = url;
         fotoDestacada.children[index].type = sc.type;
         fotoDestacada.children[index].media = sc.media;
+        if (index == 2) {
+            fotoDestacada.children[2].src = url;
+            fotoDestacada.children[2].alt = sc.alt;
+        }
     });
-    fotoDestacada.children[2].src = new URL(require("2f72ed667d41a9f")); // .toString() required?
-    fotoDestacada.children[2].alt = data.fotoDestacada.alt;
+    data.fotos.forEach((ft, index)=>{
+        const card = document.getElementById(`card_det_${index + 1}`);
+        console.log(card);
+        let urlFoto = null;
+        let figure = card.children[0];
+        switch(content){
+            case "fiesta":
+                if (index == 0) urlFoto = new URL(require("1a8ae7bedc3a7f67"));
+                else if (index == 1) urlFoto = new URL(require("73690405e7ba1963"));
+                else urlFoto = new URL(require("2cf050caf64c50cc"));
+                break;
+            case "gastronomia":
+                if (index == 0) urlFoto = new URL(require("42d6552c9a6e85d3"));
+                else if (index == 1) urlFoto = new URL(require("fd7c89b212d617e5"));
+                else urlFoto = new URL(require("73f7c9979dc2e7b1"));
+                break;
+            case "cultura":
+                if (index == 0) urlFoto = new URL(require("d2e789df928960cf"));
+                else if (index == 1) urlFoto = new URL(require("87295d2d7c7a4201"));
+                else urlFoto = new URL(require("602ab364d908ed0f"));
+                break;
+            case "ruchey":
+                if (index == 0) urlFoto = new URL(require("bf0e72893df9d32b"));
+                else if (index == 1) urlFoto = new URL(require("40c497b174107b87"));
+                else urlFoto = new URL(require("7129a98c9fce3a95"));
+                break;
+        }
+        figure.children[0].src = urlFoto;
+        figure.children[0].alt = ft.alt;
+        let body = card.children[1];
+        body.children[0].innerHTML = ft.alt;
+        body.children[1].innerHTML = ft.desc;
+    });
     fecha.innerHTML = data.fecha;
     media.src = data.media;
     tituloLista.innerHTML = data.tituloLista;
@@ -663,22 +720,22 @@ document.addEventListener('DOMContentLoaded', ()=>{
     parrafo3.innerHTML = data.parrafo3;
 });
 
-},{"../data/fiesta.json":"aWNGp","../data/gastronomia.json":"lB7o4","../data/cultura.json":"dCnSq","../data/ruchey.json":"g9iRg","3a682d616c13407b":"jBhh1","515a8a9ad53f816d":"2WImw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","2f72ed667d41a9f":"f10Og"}],"aWNGp":[function(require,module,exports,__globalThis) {
-module.exports = JSON.parse('{"titulo":"Fiestas de Moros y Cristianos","subtitulo":"En honor a la Virgen de las injurias","fotoDestacada":{"src":"images/cards/mic_2x.jpg","alt":"Foto destacada categor\xeda fiestas","sources":[{"srcset":"images/cards/mic.webp?width=480","type":"image/webp","media":"(max-width: 480px)"},{"srcset":"images/cards/mic_3x.jpg?as=webp&width=800","type":"image/webp","media":"(max-width: 1200px)"}]},"fotos":[{"src":"images/cards/mic.jpg","sizes":"(max-width: 480px) 440px, 800px","srcset":"images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg.jpg 800w","alt":"Fiestas patronales"},{"src":"images/cards/mic.jpg","sizes":"(max-width: 480px) 440px, 800px","srcset":"images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg.jpg 800w","alt":"Fiestas patronales"}],"fecha":"Del 12 al 15 de octubre","media":"https://www.youtube.com/embed/FM6jGYCIt-Q?si=_4rVl3vxgVEflxyp","tituloLista":"Actos Principales","lista":[{"acto":"<b>Acto</b>:L\'arranc\xe0","dia":"12 de octubre a las 12:30"},{"acto":"<b>Acto</b>:Entr\xe0 Cristiana","dia":"12 de octubre a las 19:00"},{"acto":"<b>Acto</b>:Entra infantil Mora i Cristiana","dia":"13 de octubre a las 11:30"},{"acto":"<b>Acto</b>:Entr\xe0 Mora","dia":"13 de octubre a las 18:30"},{"acto":"<b>Acto</b>:Tiroteig i Ambaix\xe0 Mora","dia":"14 de octubre a las 16:30"},{"acto":"<b>Acto</b>:Tiroteig i Ambaix\xe0 Cristiana","dia":"15 de octubre a las 16:30"}],"parrafo1":"Cada dissabte de festes, a les dotze del migdia, Callosa enceta les seues festes de Moros i Cristians amb la tradicional Arranc\xe0 de dol\xe7aines. Els passacarrers del dissabte de festes ja s\xf3n peces tradicionals de les colles dol\xe7aineres, i \xe9s ac\xed on prenen la seua ra\xf3 de ser. A partir d\u2019eixe moment, comencen quatre dies d\u2019actes festers, m\xfasica i sentiment fester.","parrafo2":"Des de 1860, fent festes de Moros i Cristians.","parrafo3":"La missi\xf3 de l\u2019Associaci\xf3 \xe9s organitzar una de les festes m\xe9s veteranes del mon fester. S\xf3m m\xe9s de 2.800 socis, dels quals, 1.000 s\xf3n socis festers, \xe9s a dir, pertanyen a alguna fil\xe0, i la resta s\xf3n socis no festers."}');
+},{"../data/fiesta.json":"aWNGp","../data/gastronomia.json":"lB7o4","../data/cultura.json":"dCnSq","../data/ruchey.json":"g9iRg","af77b2931bccd28f":"2rvsH","adcf70ad3b9993":"fJ4tw","32b560d130f4f40d":"Ji65S","6bb9bc6d315b36aa":"622e5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","2cf050caf64c50cc":"k43hC","c68eaee3056e92d2":"dwSw5","42d6552c9a6e85d3":"a07pf","fd7c89b212d617e5":"flQFm","73f7c9979dc2e7b1":"ktJRN","1a8ae7bedc3a7f67":"fZBxf","73690405e7ba1963":"3eLEK","da3b0119421c8834":"5hN1z","8304fff2c9add431":"3KPpG","eba36c8359880b8d":"hA93q","bf0e72893df9d32b":"h25ps","40c497b174107b87":"k1p4X","7129a98c9fce3a95":"kzovo","d2e789df928960cf":"k1fFa","87295d2d7c7a4201":"kel53","602ab364d908ed0f":"k5dkw","ebd8b0885cb97f21":"1sVGT","310fb687ada3a3af":"2xuMv","4844e27cb59b60a7":"hhfzr"}],"aWNGp":[function(require,module,exports,__globalThis) {
+module.exports = JSON.parse('{"titulo":"Fiestas de Moros y Cristianos","subtitulo":"En honor a la Virgen de las injurias","fotoDestacada":{"sources":[{"srcset":"images/cards/mic.webp?width=480","type":"image/webp","media":"(max-width: 480px)"},{"srcset":"images/cards/mic_3x.jpg?as=webp&width=800","type":"image/webp","media":"(max-width: 960px)"},{"src":"images/cards/mic.jpg","alt":"Foto destacada categor\xeda fiestas"}]},"fotos":[{"src":"images/cards/mic.jpg","sizes":"(max-width: 480px) 440px, 800px","srcset":"images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w","alt":"Desfile Cristiano","desc":"Nuestros espectaculares desfiles, con trajes propios te haran emocionarte."},{"src":"images/cards/tiroteo.jpg","sizes":"(max-width: 480px) 440px, 800px","srcset":"images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w","alt":"Tiroteo","desc":"Espectacular recreaci\xf3n de la batalla para defender la villa. Luego de este acto es la embajada."},{"src":"images/cards/mic_3x.jpg","sizes":"(max-width: 480px) 440px, 800px","srcset":"images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w","alt":"L\'Arranc\xe0","desc":"Uno de nuestros actos m\xe1s emblem\xe1ticos es \'L\'Arranc\xe0\' donde se juntan emociones, sentimientos y muchas ganas de fiesta."}],"fecha":"Del 12 al 15 de octubre","media":"https://www.youtube.com/embed/FM6jGYCIt-Q?si=_4rVl3vxgVEflxyp","tituloLista":"Actos Principales","lista":[{"acto":"<b>Acto</b>:L\'arranc\xe0","dia":"12 de octubre a las 12:30"},{"acto":"<b>Acto</b>:Entr\xe0 Cristiana","dia":"12 de octubre a las 19:00"},{"acto":"<b>Acto</b>:Entra infantil Mora i Cristiana","dia":"13 de octubre a las 11:30"},{"acto":"<b>Acto</b>:Entr\xe0 Mora","dia":"13 de octubre a las 18:30"},{"acto":"<b>Acto</b>:Tiroteig i Ambaix\xe0 Mora","dia":"14 de octubre a las 16:30"},{"acto":"<b>Acto</b>:Tiroteig i Ambaix\xe0 Cristiana","dia":"15 de octubre a las 16:30"}],"parrafo1":"Cada dissabte de festes, a les dotze del migdia, Callosa enceta les seues festes de Moros i Cristians amb la tradicional Arranc\xe0 de dol\xe7aines. Els passacarrers del dissabte de festes ja s\xf3n peces tradicionals de les colles dol\xe7aineres, i \xe9s ac\xed on prenen la seua ra\xf3 de ser. A partir d\u2019eixe moment, comencen quatre dies d\u2019actes festers, m\xfasica i sentiment fester.","parrafo2":"Des de 1860, fent festes de Moros i Cristians.","parrafo3":"La missi\xf3 de l\u2019Associaci\xf3 \xe9s organitzar una de les festes m\xe9s veteranes del mon fester. S\xf3m m\xe9s de 2.800 socis, dels quals, 1.000 s\xf3n socis festers, \xe9s a dir, pertanyen a alguna fil\xe0, i la resta s\xf3n socis no festers."}');
 
 },{}],"lB7o4":[function(require,module,exports,__globalThis) {
-module.exports = JSON.parse('{"titulo":"Jornadas de la Cuchara","subtitulo":"Arroces, fideu\xe1s, calderetas, olletas y minchos","fecha":"Del 1 al 30 de noviembre","media":"https://www.youtube.com/embed/POv5lHZvPzk?si=80-mkialNN5WPK2R","tituloLista":"Restaurantes Participantes","lista":[{"acto":"Restaurante Casa Marcos","dia":"2 y 3 de noviembre"},{"acto":"Restaurante Algar de Don Joan","dia":"9 y 10 de noviembre"},{"acto":"Restaurante La Fonda","dia":"15 y 30 de noviembre"},{"acto":"Restaurante Les Fonts","dia":"15 y 16 de noviembre"},{"acto":"Restaurante El Valle","dia":"23 y 24 de noviembre"}],"parrafo1":"Destaca el \u201Cputxero amb pilotes\u201D, plato t\xedpico en fiestas patronales de Moros y Cristianos. Que consta de tres platos: sopa de fideos hecha con el caldo del cocido, pelotas de carne picada envueltas en hojas de col hervida y el \u201Cputxero\u201D (cocido) hecho con la carne y los garbanzos.","parrafo2":"El arroz es la base de otros muchos platos importantes, como el \u201Carr\xf2s en costra\u201D, plato t\xedpico de carnaval. Es un arroz seco y contiene entre otros ingredientes, embutidos, cubierto de huevo batido, hecho al horno en cazuela de barro. Otros arroces a destacar son el \u201Carr\xf2s al forn\u201D (arroz al horno) y \u201Cl\u2019olleta\u201D.","parrafo3":"El plato t\xedpico de los d\xedas de lluvia lo constituyen los \u201Cminxos\u201D. Se trata de una base hecha de pasta de harina, escaldada, sobre la que se ponen todo tipo de verduras troceadas (fresca y en salmuera) y pescado (pescadilla y \u201Csepionet\u201D) que se coloca sobre una tabla de madera para llevar a ser horneado. Se come acompa\xf1ado de \u201Call i oli\u201D y vino tinto."}');
+module.exports = JSON.parse('{"titulo":"Jornadas de la Cuchara","subtitulo":"Arroces, fideu\xe1s, crosta, olletas y minchos","fotoDestacada":{"sources":[{"srcset":"images/cards/minchos_3x.jpg","type":"image/webp","media":"(max-width: 480px)"},{"srcset":"images/cards/mic_3x.jpg?as=webp&width=800","type":"image/webp","media":"(max-width: 960px)"},{"src":"images/cards/mic.jpg","alt":"Foto destacada categor\xeda fiestas"}]},"fotos":[{"src":"images/cards/crosta.jpg","sizes":"(max-width: 480px) 440px, 800px","srcset":"images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w","alt":"Arroz con crosta","desc":"Plato t\xedpico con gran sabor, con embutido, carne de puchero ,huevo ..."},{"src":"images/cards/arroz.jpg","sizes":"(max-width: 480px) 440px, 800px","srcset":"images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w","alt":"Arroz de Galeras y Nispero","desc":"Arroz meloso con galeras y nispero, un plato diferente"},{"src":"images/cards/olleta.jpg","sizes":"(max-width: 480px) 440px, 800px","srcset":"images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w","alt":"Olleta Callosina","desc":"La Olleta callosina es otro plato emblem\xe1tico de Callosa d\'en Sarri\xe1, conocido por su riqueza y profundidad de sabores."}],"fecha":"Del 1 al 30 de noviembre","media":"https://www.youtube.com/embed/POv5lHZvPzk?si=80-mkialNN5WPK2R","tituloLista":"Restaurantes Participantes","lista":[{"acto":"Restaurante Casa Marcos","dia":"2 y 3 de noviembre"},{"acto":"Restaurante Algar de Don Joan","dia":"9 y 10 de noviembre"},{"acto":"Restaurante La Fonda","dia":"15 y 30 de noviembre"},{"acto":"Restaurante Les Fonts","dia":"15 y 16 de noviembre"},{"acto":"Restaurante El Valle","dia":"23 y 24 de noviembre"}],"parrafo1":"Destaca el \u201Cputxero amb pilotes\u201D, plato t\xedpico en fiestas patronales de Moros y Cristianos. Que consta de tres platos: sopa de fideos hecha con el caldo del cocido, pelotas de carne picada envueltas en hojas de col hervida y el \u201Cputxero\u201D (cocido) hecho con la carne y los garbanzos.","parrafo2":"El arroz es la base de otros muchos platos importantes, como el \u201Carr\xf2s en costra\u201D, plato t\xedpico de carnaval. Es un arroz seco y contiene entre otros ingredientes, embutidos, cubierto de huevo batido, hecho al horno en cazuela de barro. Otros arroces a destacar son el \u201Carr\xf2s al forn\u201D (arroz al horno) y \u201Cl\u2019olleta\u201D.","parrafo3":"El plato t\xedpico de los d\xedas de lluvia lo constituyen los \u201Cminxos\u201D. Se trata de una base hecha de pasta de harina, escaldada, sobre la que se ponen todo tipo de verduras troceadas (fresca y en salmuera) y pescado (pescadilla y \u201Csepionet\u201D) que se coloca sobre una tabla de madera para llevar a ser horneado. Se come acompa\xf1ado de \u201Call i oli\u201D y vino tinto."}');
 
 },{}],"dCnSq":[function(require,module,exports,__globalThis) {
-module.exports = JSON.parse('{"titulo":"Patrimonio Cultural","subtitulo":"Desde un excelente paraje natural hasta un hermoso casco antiguo","fecha":"Del 1 al 30 de noviembre","media":"https://www.youtube.com/embed/X6XC2cdNE08?si=mBIxh7pvCHCn4pGd","tituloLista":"Sitios importantes","lista":[{"acto":"Les fontes del algar","dia":"<a href=\'https://lasfuentesdelalgar.com/\'>Visitar Web</a>"},{"acto":"El Portal","dia":""},{"acto":"Museo Etnol\xf3gico y Arqueol\xf3gico","dia":""},{"acto":"Iglesia Arciprestal de San Juan Bautista","dia":""},{"acto":"El Poador de la Font Major","dia":""}],"parrafo1":"La primera noticia que se tiene de la Iglesia actual es del a\xf1o 1574, cuando se constituye la Iglesia Parroquial de Callosa que en el a\xf1o 1578 fue inaugurada por Francisco de Mesa. En la segunda mitad del siglo XVIII se plantea su ampliaci\xf3n y en 1765 empieza la construcci\xf3n del crucero acab\xe1ndose en el a\xf1o 1786. En el a\xf1o 1819 las obras son en la fachada que se realiza en m\xe1rmol de las canteras locales y que no se finaliza hasta el a\xf1o 1865. El cuerpo superior de la fachada no se har\xe1 hasta el a\xf1o 1917, pero no en m\xe1rmol negro sino en cemento pintado imitando al m\xe1rmol.","parrafo2":"El \xf3rgano de la Iglesia de San Juan Bautista es un \xf3rgano barroco construido, supuestamente, en el a\xf1o 1754 por Bartolom\xe9 Sanchez para un convento de Cocentaina, y que fue comprado y trasladado a Callosa en el a\xf1o 1845.","parrafo3":"Exteriormente el instrumento nos presenta una fachada estilo neocl\xe1sico de madera natural de acuerdo con el resto la iglesia. Dado el buen estado del \xf3rgano se sigue utilizando con mucha frecuencia en conciertos y misas."}');
+module.exports = JSON.parse('{"titulo":"Patrimonio Cultural","subtitulo":"Desde un excelente paraje natural hasta un hermoso casco antiguo","fotoDestacada":{"sources":[{"srcset":"images/cards/minchos_3x.jpg","type":"image/webp","media":"(max-width: 480px)"},{"srcset":"images/cards/mic_3x.jpg?as=webp&width=800","type":"image/webp","media":"(max-width: 960px)"},{"src":"images/cards/mic.jpg","alt":"Foto destacada categor\xeda fiestas"}]},"fotos":[{"src":"images/cards/crosta.jpg","sizes":"(max-width: 480px) 440px, 800px","srcset":"images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w","alt":"El portal","desc":"Visite los restos de la muralla medieval y la entrada al pueblo."},{"src":"images/cards/arroz.jpg","sizes":"(max-width: 480px) 440px, 800px","srcset":"images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w","alt":"El fort","desc":"Fortaleza situada en lo alto de la monta\xf1a de la \xe9poca renacentista."},{"src":"images/cards/olleta.jpg","sizes":"(max-width: 480px) 440px, 800px","srcset":"images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w","alt":"Rio Algar","desc":"Nuestro gran paraje natural, podr\xe1s ba\xf1arte en pozas naturales con aguas cristalinas."}],"fecha":"Del 1 al 30 de noviembre","media":"https://www.youtube.com/embed/X6XC2cdNE08?si=mBIxh7pvCHCn4pGd","tituloLista":"Sitios importantes","lista":[{"acto":"Les fontes del algar","dia":"<a href=\'https://lasfuentesdelalgar.com/\'>Visitar Web</a>"},{"acto":"El Portal","dia":""},{"acto":"Museo Etnol\xf3gico y Arqueol\xf3gico","dia":""},{"acto":"Iglesia Arciprestal de San Juan Bautista","dia":""},{"acto":"El Poador de la Font Major","dia":""}],"parrafo1":"La primera noticia que se tiene de la Iglesia actual es del a\xf1o 1574, cuando se constituye la Iglesia Parroquial de Callosa que en el a\xf1o 1578 fue inaugurada por Francisco de Mesa. En la segunda mitad del siglo XVIII se plantea su ampliaci\xf3n y en 1765 empieza la construcci\xf3n del crucero acab\xe1ndose en el a\xf1o 1786. En el a\xf1o 1819 las obras son en la fachada que se realiza en m\xe1rmol de las canteras locales y que no se finaliza hasta el a\xf1o 1865. El cuerpo superior de la fachada no se har\xe1 hasta el a\xf1o 1917, pero no en m\xe1rmol negro sino en cemento pintado imitando al m\xe1rmol.","parrafo2":"El \xf3rgano de la Iglesia de San Juan Bautista es un \xf3rgano barroco construido, supuestamente, en el a\xf1o 1754 por Bartolom\xe9 Sanchez para un convento de Cocentaina, y que fue comprado y trasladado a Callosa en el a\xf1o 1845.","parrafo3":"Exteriormente el instrumento nos presenta una fachada estilo neocl\xe1sico de madera natural de acuerdo con el resto la iglesia. Dado el buen estado del \xf3rgano se sigue utilizando con mucha frecuencia en conciertos y misas."}');
 
 },{}],"g9iRg":[function(require,module,exports,__globalThis) {
-module.exports = JSON.parse('{"titulo":"Cooperativa Ruchey","subtitulo":"Nisperos con denominaci\xf3n de origen","fecha":"Visitas Del 1 de julio al 30 de agosto","media":"https://www.youtube.com/embed/nQORf_fiUZ4?si=hylTlJKeHIpZnMGu","tituloLista":"Principales productos","lista":[{"acto":"Nisperos","dia":"De marzo a mayo"},{"acto":"Aguacates","dia":"De octubre a diciembre y de abril a junio"},{"acto":"Naranja","dia":"Todo el a\xf1o"},{"acto":"Limones","dia":"Todo el a\xf1o"},{"acto":"Pitallas","dia":""}],"parrafo1":"Actualmente, en la Cooperativa Agr\xedcola Callosa de\u2019n Sarri\xe0 seguimos creciendo y, de manera cont\xednua, nos adaptamos a las nuevas necesidades de nuestros clientes por eso, nuestros esfuerzos est\xe1n dirigidos a la calidad, la innovaci\xf3n y la excelencia.Todo ello, forma parte del saber hacer de nuestro equipo humano, personas comprometidas y motivadas para hacer realidad nuestra raz\xf3n de ser: nuestros clientes.","parrafo2":"A trav\xe9s de nuestras marcas reconocidas Ruchey y Font d\u2019Algar, comercializamos las frutas y hortalizas producidas por nuestros socios agricultores y, de este modo, nos aseguramos de que nuestros clientes reciban la m\xe1xima calidad al mejor precio.","parrafo3":"Adem\xe1s de nuestra dedicaci\xf3n en el \xe1rea Hortofrut\xedcola, ofrecemos a nuestros agricultores asociados los diferentes productos y, el asesoramiento profesional para la aplicaci\xf3n de los tratamientos adecuados a sus campos y otros productos alimentarios, a trav\xe9s de nuestra \xe1rea de Suministros."}');
+module.exports = JSON.parse('{"titulo":"Cooperativa Ruchey","subtitulo":"Nisperos con denominaci\xf3n de origen","fotoDestacada":{"sources":[{"srcset":"images/cards/minchos_3x.jpg","type":"image/webp","media":"(max-width: 480px)"},{"srcset":"images/cards/mic_3x.jpg?as=webp&width=800","type":"image/webp","media":"(max-width: 960px)"},{"src":"images/cards/mic.jpg","alt":"Foto destacada categor\xeda fiestas"}]},"fotos":[{"src":"images/cards/crosta.jpg","sizes":"(max-width: 480px) 440px, 800px","srcset":"images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w","alt":"Aguacates","desc":"Somos, junto a Malaga, uno de los grandes productores de aguacates del pa\xeds"},{"src":"images/cards/arroz.jpg","sizes":"(max-width: 480px) 440px, 800px","srcset":"images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w","alt":"Pitayas","desc":"Producimos frutras tropicales como las pitayas, papayas, mangos ..."},{"src":"images/cards/olleta.jpg","sizes":"(max-width: 480px) 440px, 800px","srcset":"images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w","alt":"Licores","desc":"Tambi\xe9n producimos cervezas, licores y gran variedad de productos derivados del nispero.."}],"fecha":"Visitas Del 1 de julio al 30 de agosto","media":"https://www.youtube.com/embed/nQORf_fiUZ4?si=hylTlJKeHIpZnMGu","tituloLista":"Principales productos","lista":[{"acto":"Nisperos","dia":"De marzo a mayo"},{"acto":"Aguacates","dia":"De octubre a diciembre y de abril a junio"},{"acto":"Naranja","dia":"Todo el a\xf1o"},{"acto":"Limones","dia":"Todo el a\xf1o"},{"acto":"Pitallas","dia":""}],"parrafo1":"Actualmente, en la Cooperativa Agr\xedcola Callosa de\u2019n Sarri\xe0 seguimos creciendo y, de manera cont\xednua, nos adaptamos a las nuevas necesidades de nuestros clientes por eso, nuestros esfuerzos est\xe1n dirigidos a la calidad, la innovaci\xf3n y la excelencia.Todo ello, forma parte del saber hacer de nuestro equipo humano, personas comprometidas y motivadas para hacer realidad nuestra raz\xf3n de ser: nuestros clientes.","parrafo2":"A trav\xe9s de nuestras marcas reconocidas Ruchey y Font d\u2019Algar, comercializamos las frutas y hortalizas producidas por nuestros socios agricultores y, de este modo, nos aseguramos de que nuestros clientes reciban la m\xe1xima calidad al mejor precio.","parrafo3":"Adem\xe1s de nuestra dedicaci\xf3n en el \xe1rea Hortofrut\xedcola, ofrecemos a nuestros agricultores asociados los diferentes productos y, el asesoramiento profesional para la aplicaci\xf3n de los tratamientos adecuados a sus campos y otros productos alimentarios, a trav\xe9s de nuestra \xe1rea de Suministros."}');
 
-},{}],"jBhh1":[function(require,module,exports,__globalThis) {
-module.exports = require("10cf82e0d878f876").getBundleURL('79m1J') + "mic_3x.3688e476.jpeg" + "?" + Date.now();
+},{}],"2rvsH":[function(require,module,exports,__globalThis) {
+module.exports = require("27f0a206c8dd0eec").getBundleURL('79m1J') + "mic.f80d111c.webp" + "?" + Date.now();
 
-},{"10cf82e0d878f876":"lgJ39"}],"lgJ39":[function(require,module,exports,__globalThis) {
+},{"27f0a206c8dd0eec":"lgJ39"}],"lgJ39":[function(require,module,exports,__globalThis) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
@@ -713,10 +770,16 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"2WImw":[function(require,module,exports,__globalThis) {
-module.exports = require("c59fa4de9a9dcf8").getBundleURL('79m1J') + "mic_2x.edd8edf7.jpeg" + "?" + Date.now();
+},{}],"fJ4tw":[function(require,module,exports,__globalThis) {
+module.exports = require("4e3bc04072748c43").getBundleURL('79m1J') + "minchos_3x.64b77e70.webp" + "?" + Date.now();
 
-},{"c59fa4de9a9dcf8":"lgJ39"}],"gkKU3":[function(require,module,exports,__globalThis) {
+},{"4e3bc04072748c43":"lgJ39"}],"Ji65S":[function(require,module,exports,__globalThis) {
+module.exports = require("156f3cf4baa3b133").getBundleURL('79m1J') + "minchos_2x.0c1bef8c.webp" + "?" + Date.now();
+
+},{"156f3cf4baa3b133":"lgJ39"}],"622e5":[function(require,module,exports,__globalThis) {
+module.exports = require("b12ad5a7d17491c3").getBundleURL('79m1J') + "minchos.196e398a.webp" + "?" + Date.now();
+
+},{"b12ad5a7d17491c3":"lgJ39"}],"gkKU3":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -746,9 +809,63 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"f10Og":[function(require,module,exports,__globalThis) {
-module.exports = require("74f7ae9ed2cf6583").getBundleURL('79m1J') + "mic.035422af.webp" + "?" + Date.now();
+},{}],"k43hC":[function(require,module,exports,__globalThis) {
+module.exports = require("476c5b7da0672052").getBundleURL('79m1J') + "mic_3x.3536797b.webp" + "?" + Date.now();
 
-},{"74f7ae9ed2cf6583":"lgJ39"}]},["n24mg","22u1m"], "22u1m", "parcelRequire94c2")
+},{"476c5b7da0672052":"lgJ39"}],"dwSw5":[function(require,module,exports,__globalThis) {
+module.exports = require("d14064cbd609f4b6").getBundleURL('79m1J') + "mic_2x.7bfb1d4f.webp" + "?" + Date.now();
+
+},{"d14064cbd609f4b6":"lgJ39"}],"a07pf":[function(require,module,exports,__globalThis) {
+module.exports = require("f0e18d20e1d1ec2b").getBundleURL('79m1J') + "crosta.82b4fa05.webp" + "?" + Date.now();
+
+},{"f0e18d20e1d1ec2b":"lgJ39"}],"flQFm":[function(require,module,exports,__globalThis) {
+module.exports = require("81ed27c0ba7ede").getBundleURL('79m1J') + "arroz.5e56e23d.webp" + "?" + Date.now();
+
+},{"81ed27c0ba7ede":"lgJ39"}],"ktJRN":[function(require,module,exports,__globalThis) {
+module.exports = require("83027ba298208721").getBundleURL('79m1J') + "olleta.2e9d5845.webp" + "?" + Date.now();
+
+},{"83027ba298208721":"lgJ39"}],"fZBxf":[function(require,module,exports,__globalThis) {
+module.exports = require("348c50ee76f72fe6").getBundleURL('79m1J') + "mic.bf99303f.webp" + "?" + Date.now();
+
+},{"348c50ee76f72fe6":"lgJ39"}],"3eLEK":[function(require,module,exports,__globalThis) {
+module.exports = require("7d5f723e28282767").getBundleURL('79m1J') + "tiroteo.a29ed253.webp" + "?" + Date.now();
+
+},{"7d5f723e28282767":"lgJ39"}],"5hN1z":[function(require,module,exports,__globalThis) {
+module.exports = require("bf26a24c611bd415").getBundleURL('79m1J') + "ruchey_2x.10ca54a9.webp" + "?" + Date.now();
+
+},{"bf26a24c611bd415":"lgJ39"}],"3KPpG":[function(require,module,exports,__globalThis) {
+module.exports = require("6c4f3fd608254bac").getBundleURL('79m1J') + "ruchey_3x.24057d50.webp" + "?" + Date.now();
+
+},{"6c4f3fd608254bac":"lgJ39"}],"hA93q":[function(require,module,exports,__globalThis) {
+module.exports = require("53edea9131725eee").getBundleURL('79m1J') + "ruchey.035d9d10.webp" + "?" + Date.now();
+
+},{"53edea9131725eee":"lgJ39"}],"h25ps":[function(require,module,exports,__globalThis) {
+module.exports = require("3f9685d108d33f22").getBundleURL('79m1J') + "aguacate.eecb1009.webp" + "?" + Date.now();
+
+},{"3f9685d108d33f22":"lgJ39"}],"k1p4X":[function(require,module,exports,__globalThis) {
+module.exports = require("6ddecff2a594b9db").getBundleURL('79m1J') + "pitaya.60120e9a.avif" + "?" + Date.now();
+
+},{"6ddecff2a594b9db":"lgJ39"}],"kzovo":[function(require,module,exports,__globalThis) {
+module.exports = require("4cc07ae058337db3").getBundleURL('79m1J') + "cerveza.573cfa66.webp" + "?" + Date.now();
+
+},{"4cc07ae058337db3":"lgJ39"}],"k1fFa":[function(require,module,exports,__globalThis) {
+module.exports = require("d0f41046da71c1c6").getBundleURL('79m1J') + "portal.b544660b.webp" + "?" + Date.now();
+
+},{"d0f41046da71c1c6":"lgJ39"}],"kel53":[function(require,module,exports,__globalThis) {
+module.exports = require("6a644868da3e16a6").getBundleURL('79m1J') + "fort.7d37e8e0.webp" + "?" + Date.now();
+
+},{"6a644868da3e16a6":"lgJ39"}],"k5dkw":[function(require,module,exports,__globalThis) {
+module.exports = require("ad654c2a73cd7396").getBundleURL('79m1J') + "algar.17c6c493.webp" + "?" + Date.now();
+
+},{"ad654c2a73cd7396":"lgJ39"}],"1sVGT":[function(require,module,exports,__globalThis) {
+module.exports = require("5fdbfe18805d4ea9").getBundleURL('79m1J') + "algar_3x.6d9e5836.jpeg" + "?" + Date.now();
+
+},{"5fdbfe18805d4ea9":"lgJ39"}],"2xuMv":[function(require,module,exports,__globalThis) {
+module.exports = require("5b016f59cccd228c").getBundleURL('79m1J') + "algar_2x.35e78bfc.jpeg" + "?" + Date.now();
+
+},{"5b016f59cccd228c":"lgJ39"}],"hhfzr":[function(require,module,exports,__globalThis) {
+module.exports = require("dd065ef46b6c82df").getBundleURL('79m1J') + "algar.e38df000.jpeg" + "?" + Date.now();
+
+},{"dd065ef46b6c82df":"lgJ39"}]},["n24mg","22u1m"], "22u1m", "parcelRequire94c2")
 
 //# sourceMappingURL=detalle.d9fb83c2.js.map

@@ -1,9 +1,7 @@
 {    
     "titulo": "Fiestas de Moros y Cristianos",
     "subtitulo": "En honor a la Virgen de las injurias",
-    "fotoDestacada": {
-        "src": "images/cards/mic_2x.jpg",
-        "alt": "Foto destacada categoría fiestas",
+    "fotoDestacada": {        
         "sources": [
             {
                 "srcset" : "images/cards/mic.webp?width=480",
@@ -13,7 +11,11 @@
             {
                 "srcset" : "images/cards/mic_3x.jpg?as=webp&width=800",
                 "type": "image/webp",
-                "media": "(max-width: 1200px)"
+                "media": "(max-width: 960px)"
+            },
+            {
+                "src": "images/cards/mic.jpg",
+                "alt": "Foto destacada categoría fiestas"
             }
         ]
     },
@@ -21,14 +23,23 @@
         {
             "src": "images/cards/mic.jpg",
             "sizes": "(max-width: 480px) 440px, 800px",
-            "srcset": "images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg.jpg 800w",
-            "alt": "Fiestas patronales"
+            "srcset": "images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w",
+            "alt": "Desfile Cristiano",
+            "desc": "Nuestros espectaculares desfiles, con trajes propios te haran emocionarte."
         },
         {
-            "src": "images/cards/mic.jpg",
+            "src": "images/cards/tiroteo.jpg",
             "sizes": "(max-width: 480px) 440px, 800px",
-            "srcset": "images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg.jpg 800w",
-            "alt": "Fiestas patronales"
+            "srcset": "images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w",
+            "alt": "Tiroteo",
+            "desc": "Espectacular recreación de la batalla para defender la villa. Luego de este acto es la embajada."
+        },
+        {
+            "src": "images/cards/mic_3x.jpg",
+            "sizes": "(max-width: 480px) 440px, 800px",
+            "srcset": "images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w",
+            "alt": "L'Arrancà",
+            "desc": "Uno de nuestros actos más emblemáticos es 'L'Arrancà' donde se juntan emociones, sentimientos y muchas ganas de fiesta."
         }
     ],    
     "fecha": "Del 12 al 15 de octubre",

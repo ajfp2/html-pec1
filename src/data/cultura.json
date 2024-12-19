@@ -1,6 +1,47 @@
 {    
     "titulo": "Patrimonio Cultural",
     "subtitulo": "Desde un excelente paraje natural hasta un hermoso casco antiguo",
+    "fotoDestacada": {        
+        "sources": [
+            {
+                "srcset" : "images/cards/minchos_3x.jpg",
+                "type": "image/webp",
+                "media": "(max-width: 480px)"
+            },
+            {
+                "srcset" : "images/cards/mic_3x.jpg?as=webp&width=800",
+                "type": "image/webp",
+                "media": "(max-width: 960px)"
+            },
+            {
+                "src": "images/cards/mic.jpg",
+                "alt": "Foto destacada categoría fiestas"
+            }
+        ]
+    },
+    "fotos": [
+        {
+            "src": "images/cards/crosta.jpg",
+            "sizes": "(max-width: 480px) 440px, 800px",
+            "srcset": "images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w",
+            "alt": "El portal",
+            "desc": "Visite los restos de la muralla medieval y la entrada al pueblo."
+        },
+        {
+            "src": "images/cards/arroz.jpg",
+            "sizes": "(max-width: 480px) 440px, 800px",
+            "srcset": "images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w",
+            "alt": "El fort",
+            "desc": "Fortaleza situada en lo alto de la montaña de la época renacentista."
+        },
+        {
+            "src": "images/cards/olleta.jpg",
+            "sizes": "(max-width: 480px) 440px, 800px",
+            "srcset": "images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w",
+            "alt": "Rio Algar",
+            "desc": "Nuestro gran paraje natural, podrás bañarte en pozas naturales con aguas cristalinas."
+        }
+    ],
     "fecha": "Del 1 al 30 de noviembre",
     "media": "https://www.youtube.com/embed/X6XC2cdNE08?si=mBIxh7pvCHCn4pGd",
     "tituloLista": "Sitios importantes",

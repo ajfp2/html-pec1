@@ -36,6 +36,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const fotoDestacada = document.getElementById("imgDestacada");
 
+    // const card1 = document.getElementById("card_det_1");
+    // const card2 = document.getElementById("card_det_2");
+    // const card3 = document.getElementById("card_det_3");
+
     const fecha = document.getElementById("fecha");
     const media = document.getElementById("media");
 
@@ -50,21 +54,94 @@ document.addEventListener('DOMContentLoaded', () => {
     titulo.innerHTML = data.titulo;
     subtitulo.innerHTML = data.subtitulo;
 
-    let sources = '';
+  
     data.fotoDestacada.sources.forEach((sc, index) => {
-        console.log("i", index);
-        if(index == 0){
-            //480
-            fotoDestacada.children[index].srcset = new URL("../images/cards/mic_3x.jpg", import.meta.url);
-        } else {
-            fotoDestacada.children[index].srcset = new URL("../images/cards/mic_2x.jpg", import.meta.url);
+
+        let url = null;
+        switch(content){
+            case "fiesta":         
+                if(index == 0){ //480
+                    url = new URL("../images/cards/mic_3x.jpg?as=webp", import.meta.url);
+                } else if(index == 1) { //960
+                    url = new URL("../images/cards/mic_2x.jpg?as=webp", import.meta.url);
+                } else {//otras
+                    url = new URL("../images/cards/mic.webp?height=750", import.meta.url);
+                }
+            break;
+            case "gastronomia": 
+                if(index == 0){ //480
+                    url = new URL("../images/cards/minchos_3x.jpg?as=webp", import.meta.url);
+                } else if(index == 1) { //960
+                    url = new URL("../images/cards/minchos_2x.jpg?as=webp", import.meta.url);
+                } else {//otras
+                    url = new URL("../images/cards/minchos.jpg?as=webp", import.meta.url);
+                }
+            break;
+            case "cultura": 
+                if(index == 0){ //480
+                    url = new URL("../images/cards/algar_3x.jpg", import.meta.url);
+                } else if(index == 1) { //960
+                    url = new URL("../images/cards/algar_2x.jpg", import.meta.url);
+                } else {//otras
+                    url = new URL("../images/cards/algar.jpg", import.meta.url);
+                }
+            break;
+            case "ruchey": 
+                if(index == 0){ //480
+                    url = new URL("../images/cards/ruchey_3x.jpg?as=webp", import.meta.url);
+                } else if(index == 1) { //960
+                    url = new URL("../images/cards/ruchey_2x.jpg?as=webp", import.meta.url);
+                } else {//otras
+                    url = new URL("../images/cards/ruchey.jpg?width=1200&as=webp", import.meta.url);
+                }
+            break;
         }
-        
+        fotoDestacada.children[index].srcset = url;        
         fotoDestacada.children[index].type = sc.type;
         fotoDestacada.children[index].media = sc.media;
+        if(index == 2){
+            fotoDestacada.children[2].src = url;
+            fotoDestacada.children[2].alt = sc.alt;
+        }
     });
-    fotoDestacada.children[2].src = new URL("../images/cards/mic.webp", import.meta.url); // .toString() required?
-    fotoDestacada.children[2].alt = data.fotoDestacada.alt;
+
+    
+    data.fotos.forEach((ft, index) => {
+        const card = document.getElementById(`card_det_${index + 1}`);
+        console.log(card);
+        let urlFoto = null;
+        let figure = card.children[0];
+        switch(content){
+            case "fiesta":
+                if(index == 0) urlFoto = new URL("../images/cards/mic.jpg?as=webp", import.meta.url);
+                else if(index == 1) urlFoto = new URL("../images/cards/tiroteo.jpg?as=webp", import.meta.url);
+                else urlFoto = new URL("../images/cards/mic_3x.jpg?as=webp", import.meta.url);
+            break;
+            case "gastronomia": 
+                if(index == 0) urlFoto = new URL("../images/cards/crosta.jpg?as=webp", import.meta.url);
+                else if(index == 1) urlFoto = new URL("../images/cards/arroz.jpg?as=webp", import.meta.url);
+                else urlFoto = new URL("../images/cards/olleta.jpg?as=webp", import.meta.url);
+            break;
+            case "cultura": 
+                if(index == 0) urlFoto = new URL("../images/cards/portal.jpg?as=webp", import.meta.url);
+                else if(index == 1) urlFoto = new URL("../images/cards/fort.jpg?as=webp", import.meta.url);
+                else urlFoto = new URL("../images/cards/algar.jpg?as=webp", import.meta.url);
+            break;
+            case "ruchey": 
+                if(index == 0) urlFoto = new URL("../images/cards/aguacate.jpg?as=webp", import.meta.url);
+                else if(index == 1) urlFoto = new URL("../images/cards/pitaya.avif", import.meta.url);
+                else urlFoto = new URL("../images/cards/cerveza.jpg?as=webp", import.meta.url);
+            break;
+        }
+
+        figure.children[0].src = urlFoto;
+        figure.children[0].alt = ft.alt;
+        let body = card.children[1];
+        body.children[0].innerHTML = ft.alt;
+        body.children[1].innerHTML = ft.desc;
+
+    });
+
 
 
 

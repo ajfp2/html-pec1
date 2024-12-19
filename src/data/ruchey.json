@@ -1,6 +1,47 @@
 {    
     "titulo": "Cooperativa Ruchey",
     "subtitulo": "Nisperos con denominación de origen",
+    "fotoDestacada": {        
+        "sources": [
+            {
+                "srcset" : "images/cards/minchos_3x.jpg",
+                "type": "image/webp",
+                "media": "(max-width: 480px)"
+            },
+            {
+                "srcset" : "images/cards/mic_3x.jpg?as=webp&width=800",
+                "type": "image/webp",
+                "media": "(max-width: 960px)"
+            },
+            {
+                "src": "images/cards/mic.jpg",
+                "alt": "Foto destacada categoría fiestas"
+            }
+        ]
+    },
+    "fotos": [
+        {
+            "src": "images/cards/crosta.jpg",
+            "sizes": "(max-width: 480px) 440px, 800px",
+            "srcset": "images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w",
+            "alt": "Aguacates",
+            "desc": "Somos, junto a Malaga, uno de los grandes productores de aguacates del país"
+        },
+        {
+            "src": "images/cards/arroz.jpg",
+            "sizes": "(max-width: 480px) 440px, 800px",
+            "srcset": "images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w",
+            "alt": "Pitayas",
+            "desc": "Producimos frutras tropicales como las pitayas, papayas, mangos ..."
+        },
+        {
+            "src": "images/cards/olleta.jpg",
+            "sizes": "(max-width: 480px) 440px, 800px",
+            "srcset": "images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w",
+            "alt": "Licores",
+            "desc": "También producimos cervezas, licores y gran variedad de productos derivados del nispero.."
+        }
+    ],
     "fecha": "Visitas Del 1 de julio al 30 de agosto",
     "media": "https://www.youtube.com/embed/nQORf_fiUZ4?si=hylTlJKeHIpZnMGu",
     "tituloLista": "Principales productos",

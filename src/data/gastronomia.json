@@ -1,6 +1,47 @@
 {    
     "titulo": "Jornadas de la Cuchara",
-    "subtitulo": "Arroces, fideuás, calderetas, olletas y minchos",
+    "subtitulo": "Arroces, fideuás, crosta, olletas y minchos",
+    "fotoDestacada": {        
+        "sources": [
+            {
+                "srcset" : "images/cards/minchos_3x.jpg",
+                "type": "image/webp",
+                "media": "(max-width: 480px)"
+            },
+            {
+                "srcset" : "images/cards/mic_3x.jpg?as=webp&width=800",
+                "type": "image/webp",
+                "media": "(max-width: 960px)"
+            },
+            {
+                "src": "images/cards/mic.jpg",
+                "alt": "Foto destacada categoría fiestas"
+            }
+        ]
+    },
+    "fotos": [
+        {
+            "src": "images/cards/crosta.jpg",
+            "sizes": "(max-width: 480px) 440px, 800px",
+            "srcset": "images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w",
+            "alt": "Arroz con crosta",
+            "desc": "Plato típico con gran sabor, con embutido, carne de puchero ,huevo ..."
+        },
+        {
+            "src": "images/cards/arroz.jpg",
+            "sizes": "(max-width: 480px) 440px, 800px",
+            "srcset": "images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w",
+            "alt": "Arroz de Galeras y Nispero",
+            "desc": "Arroz meloso con galeras y nispero, un plato diferente"
+        },
+        {
+            "src": "images/cards/olleta.jpg",
+            "sizes": "(max-width: 480px) 440px, 800px",
+            "srcset": "images/cards/mic_3x.jpg 480w, images/cards/mic_2x.jpg 800w",
+            "alt": "Olleta Callosina",
+            "desc": "La Olleta callosina es otro plato emblemático de Callosa d'en Sarriá, conocido por su riqueza y profundidad de sabores."
+        }
+    ],
     "fecha": "Del 1 al 30 de noviembre",
     "media": "https://www.youtube.com/embed/POv5lHZvPzk?si=80-mkialNN5WPK2R",
     "tituloLista": "Restaurantes Participantes",
