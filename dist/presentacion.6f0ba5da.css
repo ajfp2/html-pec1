@@ -1,0 +1,31 @@
+:root {
+  --spinner-body-bg: #d1d8e0;
+  --spinner-animation-speed: 1s;
+  --spinner-color: #8854d0;
+}
+
+#svgCard figure {
+  background-color: var(--spinner-body-bg);
+  place-items: center;
+  display: grid;
+}
+
+.spinner {
+  animation: spin var(--spinner-animation-speed) linear infinite;
+  margin: 0 auto;
+}
+
+.spinner .spinner-gradient-stop {
+  stop-color: var(--spinner-color);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=presentacion.6f0ba5da.css.map */

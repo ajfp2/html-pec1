@@ -20,7 +20,15 @@
 
 h1, h2, h3 {
   text-align: center;
-  padding: 10px;
+  /* padding: 10px; */
+  margin-bottom: 15px;
+}
+
+h4{
+  text-align: center;
+  margin: 5px 10px;
+  font-style: normal;
+  color: var(--gris-color);
 }
 
 body {
@@ -118,7 +126,7 @@ nav {
 }
 
 main {
-  padding-top: 10px; /* Le sumo la altura del header por el padding  */ 
+  padding-top: 10px; 
 }
 
 .girdMain {
@@ -161,6 +169,10 @@ main {
   overflow: hidden;
 }
 
+.girdMain .card figure{
+  background-color: #dddddd;
+}
+
 .card figure{
   margin: 0;
   padding: 0;
@@ -171,7 +183,7 @@ main {
 .card img {
   max-width: 100%;
   transform-origin: center;
-  transform: scale(var(--img-scale));
+  /* transform: scale(var(--img-scale)); */
 }
 
 .card-body{
@@ -283,6 +295,7 @@ article {
     
 }
 
+
 #app-main .video-container {
     flex: 1;
     min-width: 300px;
@@ -311,6 +324,11 @@ article {
   border-radius: 10px;
   align-content: center;
 }
+
+/* #app-main .imgDestacada img{
+  max-height: 400px;
+} */
+
 /*
 #app-main video {
   width: 100%;
@@ -330,7 +348,7 @@ article {
 }
 
 .clip-polygon {
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%, 100% 70%, 75% 90%, 0% 100%);
+  clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 100% 75%, 100% 75%, 90% 80%, 5% 90%);
   background-color: rgb(185, 181, 176);
   /* Note that percentages work as well as px */
 }

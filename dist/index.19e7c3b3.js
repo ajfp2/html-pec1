@@ -1,2 +1,0 @@
-console.log("Iniciando carga de contenido"),document.addEventListener("DOMContentLoaded",()=>{let e=document.getElementById("mobile-menu"),t=document.querySelector(".menu");e.addEventListener("click",()=>{t.classList.toggle("active")})}),document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll(".submenu").forEach(e=>{e.addEventListener("click",t=>{t.preventDefault();let n=new URL(window.location.href),o=e.getAttribute("data-url");window.location=`${n.protocol}//${n.host}/detalle.html?det=${o}`})})});
-//# sourceMappingURL=index.19e7c3b3.js.map

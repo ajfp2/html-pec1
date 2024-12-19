@@ -44,24 +44,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const parrafo1 = document.getElementById("parrafo1");
     const parrafo2 = document.getElementById("parrafo2");
-    const parrafo3 = document.getElementById("parrafo3");
+    const parrafo3 = document.getElementById("parrafo3");    
 
-    
-
+    // METEMOS LOS DATOS EN EL DOM **********************************
     titulo.innerHTML = data.titulo;
     subtitulo.innerHTML = data.subtitulo;
 
     let sources = '';
-    console.log("log",data.fotoDestacada);
-    console.log("hijos",fotoDestacada.children);
     data.fotoDestacada.sources.forEach((sc, index) => {
         console.log("i", index);
-        fotoDestacada.children[index].srcset = new URL("../images/cards/mic_3x.jpg", import.meta.url);
+        if(index == 0){
+            //480
+            fotoDestacada.children[index].srcset = new URL("../images/cards/mic_3x.jpg", import.meta.url);
+        } else {
+            fotoDestacada.children[index].srcset = new URL("../images/cards/mic_2x.jpg", import.meta.url);
+        }
+        
         fotoDestacada.children[index].type = sc.type;
         fotoDestacada.children[index].media = sc.media;
     });
-    fotoDestacada.children[2].src = new URL("../images/cards/mic_2x.jpg", import.meta.url); // .toString() required?
+    fotoDestacada.children[2].src = new URL("../images/cards/mic.webp", import.meta.url); // .toString() required?
     fotoDestacada.children[2].alt = data.fotoDestacada.alt;
+
 
 
     fecha.innerHTML = data.fecha;

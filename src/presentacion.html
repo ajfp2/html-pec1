@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Callosa- Presentación</title>
         <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/spinner.css" />
     </head>
     <body>
         <include src="./headers/header.html" locals='{"active": "presentacion"}'></include>
@@ -12,6 +13,8 @@
         <div id="app-main">
             <h1>Presentación</h1>
             <h4 class="subtitle">Explicación contenido página</h4>
+
+
 
             <article class="girdMain">
                 <section class="card">
@@ -42,6 +45,30 @@
                         <h2>Detalle</h2>
                         <p>Muestro los datos de cada categoría pasada por paramentro</p>
                         <p>He creado el html que se rellena en función del json solicitado, la estructura de los archivos json es la misma para facilitar el trabajo.</p>
+                    </div>
+                </section>
+
+                <section id="svgCard" class="card">
+                    <figure>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 48 48" class="spinner">
+                            <defs>
+                                <linearGradient id="gradientFade" x1="20%" x2="50%" y1="60%" y2="100%">
+                                    <stop offset="0%" class="spinner-gradient-stop"/>
+                                    <stop offset="25%" stop-opacity="75%" class="spinner-gradient-stop" />
+                                    <stop offset="50%" stop-opacity="50%" class="spinner-gradient-stop" />
+                                    <stop offset="75%" stop-opacity="25%" class="spinner-gradient-stop" />
+                                    <stop offset="100%" stop-opacity="5%" class="spinner-gradient-stop" />
+                                </linearGradient>
+                            </defs>
+                            <g>
+                                <circle cx="24" cy="24" r="22" fill="transparent" stroke="url(#gradientFade)" stroke-width="4" />
+                            </g>
+                        </svg>
+                    </figure>
+                    <div class="card-body">
+                        <h2>SVG</h2>
+                        <p>Spinner loading</p>
+                        <p>Spinner creado con SVG y animado por CSS.</p>
                     </div>
                 </section>
             </article>
