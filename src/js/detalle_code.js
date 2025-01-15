@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else if(index == 1) { //960
                     url = new URL("../images/cards/minchos_2x.jpg?as=webp", import.meta.url);
                 } else {//otras
-                    url = new URL("../images/cards/minchos.jpg?as=webp", import.meta.url);
+                    url = new URL("../images/cards/minchos_3x.jpg", import.meta.url);
                 }
             break;
             case "cultura": 
