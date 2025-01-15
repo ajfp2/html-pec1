@@ -54,6 +54,7 @@ nav {
 }
 
 .logo img {
+  max-width: 120px;
   height: 80px;
 }
 
