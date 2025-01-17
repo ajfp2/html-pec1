@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     data.fotos.forEach((ft, index) => {
         const card = document.getElementById(`card_det_${index + 1}`);
-        console.log(card);
+
         let urlFoto = null;
         let figure = card.children[0];
         switch(content){

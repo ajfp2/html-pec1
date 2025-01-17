@@ -1,5 +1,5 @@
 
-console.log('Iniciando carga de contenido');
+console.log('Iniciando carga de contenido ...');
 
 
 document.addEventListener('DOMContentLoaded', () => {
