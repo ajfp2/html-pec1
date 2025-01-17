@@ -147,17 +147,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     fecha.innerHTML = data.fecha;
 
-    facadeJS.addEventListener('click', () => {
-        const iframe = document.createElement('iframe');
-        iframe.src = data.media; // URL del contenido de terceros
-        iframe.className = 'iframe-container';
+    if(facadeJS != null){
+        facadeJS.addEventListener('click', () => {
+            const iframe = document.createElement('iframe');
+            iframe.src = data.media; // URL del contenido de terceros
+            iframe.className = 'iframe-container';
 
-        iframe.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
-        iframe.allowFullscreen = true;
+            iframe.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
+            iframe.allowFullscreen = true;
 
-        facadeJS.innerHTML = '';
-        facadeJS.appendChild(iframe);
-    });
+            facadeJS.innerHTML = '';
+            facadeJS.appendChild(iframe);
+        });
+    }
 
     tituloLista.innerHTML = data.tituloLista;
 
