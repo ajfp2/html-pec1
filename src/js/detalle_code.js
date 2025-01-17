@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
             break;
             case "gastronomia": 
                 if(index == 0){ //480
-                    url = new URL("../images/cards/minchos_3x.jpg?as=webp", import.meta.url);
+                    url = new URL("../images/cards/minchos_2x.jpg?as=webp", import.meta.url);
                 } else if(index == 1) { //960
                     url = new URL("../images/cards/minchos_2x.jpg?as=webp", import.meta.url);
                 } else {//otras
