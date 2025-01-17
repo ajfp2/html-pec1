@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // const card3 = document.getElementById("card_det_3");
 
     const fecha = document.getElementById("fecha");
-    const media = document.getElementById("media");
+    const facadeJS = document.getElementById("media");
 
     const tituloLista = document.getElementById("tituloLista");
     const lista = document.getElementById("lista");
@@ -146,7 +146,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     fecha.innerHTML = data.fecha;
-    media.src = data.media;
+
+    facadeJS.addEventListener('click', () => {
+        const iframe = document.createElement('iframe');
+        iframe.src = data.media; // URL del contenido de terceros
+        iframe.className = 'iframe-container';
+
+        iframe.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
+        iframe.allowFullscreen = true;
+
+        facadeJS.innerHTML = '';
+        facadeJS.appendChild(iframe);
+    });
+
     tituloLista.innerHTML = data.tituloLista;
 
     let items = "";

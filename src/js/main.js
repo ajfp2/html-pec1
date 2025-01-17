@@ -9,6 +9,20 @@ document.addEventListener('DOMContentLoaded', () => {
     mobileMenu.addEventListener('click', () => {
         menu.classList.toggle('active');
     });
+
+    const facade = document.getElementById('iframe-facade');
+
+    facade.addEventListener('click', () => {
+        const iframe = document.createElement('iframe');
+        iframe.src = 'https://www.youtube.com/embed/j93yo_Zr_bs?si=xxJXTO66c9E7RfK6'; // URL del contenido de terceros
+        iframe.className = 'iframe-container';
+        iframe.frameBorder = '0';
+        iframe.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
+        iframe.allowFullscreen = true;
+
+        facade.innerHTML = '';
+        facade.appendChild(iframe);
+    });
 });
 
 document.addEventListener('DOMContentLoaded', () => {
